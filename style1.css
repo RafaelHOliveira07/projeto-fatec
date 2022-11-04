@@ -1,0 +1,325 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+
+
+/*------------secao 01------------------*/
+
+#sec01{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+  
+}
+
+/*------------Texto destaque secao01------------------*/
+#text01>h1{
+    color: #e7e7e7;
+    font-weight: bolder;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.397);
+    filter: drop-shadow( 4px 4px 1px rgba(0, 0, 0, 0.452));
+    font-size: 4em;
+    text-align: left;
+    font-variant: small-caps;
+    
+    
+   
+}
+#text01>h1>a{
+    color: rgb(139, 5, 5);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#text01{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+/*------------formulario------------------*/
+#formulario{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#centro{
+
+    width: 15.5rem;
+    height: 29rem;
+    background: #eceae7;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.637);
+    border-radius: 15px;
+    border: 2px solid rgb(139, 5, 5);;
+    padding: 1rem;
+    
+}
+
+#centro>h2{
+    
+    color: rgb(139, 5, 5);
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-variant: small-caps;
+  
+    
+}
+
+
+
+
+form>label{
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: rgb(139, 5, 5);
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: left;
+  
+}
+
+
+form>label>input{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom:rgb(139, 5, 5) 2px solid ;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+      
+}
+
+
+.sec0{
+   display: flex; 
+}
+
+
+#form01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+    
+}
+
+
+
+::-webkit-input-placeholder  {
+    color: #aa1313; 
+    font-style: italic;
+}
+
+  #linkf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#linkc{
+    margin-top: 10%;
+    color: rgb(161, 5, 5);;
+    border: none;
+    font-weight: bolder; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    background-image: linear-gradient(transparent 0%,transparent 90%, rgb(190, 8, 8) 90%, rgb(204, 9, 9) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: center;
+    transition: background-size 600ms;
+    
+}
+
+#linkc:hover{
+    color: #d30e0e;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+/*------------chech box------------------*/
+#chek{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-left: 4%;
+    font-size: 0.8em;
+}
+
+input[type=checkbox]{
+    display: none;
+    
+ 
+  
+}
+input[type=checkbox] + label:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-size: 12px;
+
+    border: 1px solid #8d0000;
+    border-radius: 4px;
+
+    width:  0.8rem;
+    height: 0.8rem;
+
+    color: transparent;
+    transition: .3s;
+
+    margin-right: 5px;
+
+    background: #FFF;
+    cursor: pointer;
+}
+input[type=checkbox]:checked + label:before {
+    color: #FFF;
+    border: 1px solid #860303;
+    background: #830707
+}
+
+
+input[type=checkbox] + label:before {
+    content: "\2713";
+}
+input[type=checkbox] + label {
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/*------------secao botao------------------*/
+
+.botao{
+    
+position: relative;
+overflow: hidden;
+height: 3rem;
+padding: 0 1.3rem;
+border-radius: 0.8rem;
+background: #5b5a5f96;
+background-size: 400%;
+color: #ffffff;
+border: 1px solid rgba(46, 41, 41, 0.5);
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
+
+}
+.botao::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: initial;
+    background: linear-gradient(-45deg, rgb(121, 11, 11)  ,rgb(252, 2, 2) )  ;
+    transition: all 0.5s;
+    
+    
+}
+.botao:hover::before{
+   transform: scaleX(3);
+    
+   
+}
+
+
+
+.button{
+    position: relative;
+    z-index: 1;
+}
+
+#botoes{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 5px 0px;
+    
+}
+
+
+
+#sec02{
+    display: flex;
+    height: 106vh;
+    border-top: 3px solid rgb(255, 255, 255);
+    background-image: url(img/pexels-christina-morillo-1181534.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+
+#text02{
+  display: flex;
+    height: 106vh;
+    width: 50vw;
+    background-color: rgba(34, 34, 34, 0.466);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    font-variant: small-caps;
+
+   
+}
+
+#textodois{
+    height: 750px;
+    padding: 50px;
+    border: 4px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-left: -8%;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.466);
+    
+}
+
+#textodois p{
+    
+    margin: 0px  0px 50px 0px;
+    font-size: 1.36em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#textodois h2{
+    font-size: 2em;
+    margin: 0px 0px 25px 0px;
+    border-left: 4px solid white ;
+    padding-left: 5px;
+    border-radius: 2px;
+
+}

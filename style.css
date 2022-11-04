@@ -1,0 +1,164 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+
+
+html,body{
+    
+    background-color: rgb(243, 243, 243);
+   
+   
+}
+
+#fundo01{
+    background-image: url(img/pexels-brayan-vieira-7661653.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+}
+#cabeca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, #ffffff,#ececec,#dddddd) ;
+    height:max-content;
+    padding: 1rem;
+
+}
+
+
+
+ #menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#menuf{
+    display: flex;
+    background-color: rgb(153, 5, 5);
+    width: 100%;
+    padding: 0.12rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    
+    
+}
+#menu a{
+    margin-left: 1rem;
+    padding: 0.3rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    background-image: linear-gradient(transparent 90%, rgb(248, 248, 248) 90%, rgb(228, 228, 228) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: center;
+    transition: background-size 400ms;
+}
+
+#menu a:hover{
+    
+  background-size: 100% 100%;
+  background-position: center;
+  
+  
+ 
+}
+
+#fate{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+
+
+
+
+
+}
+#fate>img{
+    max-width: 130px;
+    filter: drop-shadow(2px 6px 8px rgba(53, 53, 53, 0.253));
+}
+
+
+
+footer{
+    display: flex;
+    height: 25vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50 0px 20px;
+    background: #333333;
+
+}
+#fundope{
+    display: flex;
+    width: 100%;
+    background-color: #1d1d1d;
+    color: white;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+ 
+
+}
+#redes{
+    
+    display: inline;
+    padding: 20px;
+    
+   
+    
+    
+  
+}
+
+#imgpe{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+ 
+}
+
+#linkpe{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: white;
+    justify-content: left;
+    align-items: center;
+   
+    
+}
+
+#linkpe a{
+    
+    color: rgb(156, 156, 156);
+    
+}
+
+ul>h2{
+    padding: 1rem 0rem;
+}
+ul li{
+    padding: 0.2rem;
+}
+
