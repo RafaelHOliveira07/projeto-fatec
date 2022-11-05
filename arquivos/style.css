@@ -10,7 +10,7 @@ html,body{
     background-image: url(img/pexels-brayan-vieira-7661653.jpg);
     background-color: rgb(243, 243, 243);
      background-position: center top;
-     background-repeat: no;
+     background-repeat: no-repeat;
    
    
 }
@@ -41,7 +41,7 @@ html,body{
 
 #menuf{
     display: flex;
-    background-color: rgb(153, 5, 5);
+    background-color: rgb(136, 10, 10);
     width: 100%;
     padding: 0.12rem;
     justify-content: center;
@@ -96,8 +96,7 @@ width: 100%;
 
 footer{
     display: flex;
-    height: 25vh;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
     margin: 0px 50 0px 20px;
