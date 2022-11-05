@@ -9,14 +9,16 @@
 /*------------secao 01------------------*/
 
 #sec01{
-    
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
-    
-  
+    display: flex;
+
+    align-items: center;
+    height: 85vh;
 }
+
 
 /*------------Texto destaque secao01------------------*/
 #text01>h1{
@@ -282,8 +284,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
 
 #text02{
   display: flex;
-    height: 106vh;
-    width: 50vw;
+    width: 50rem;
     background-color: rgba(34, 34, 34, 0.466);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -296,7 +297,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
 }
 
 #textodois{
-    height: 750px;
+    
     padding: 50px;
     border: 4px solid rgb(255, 255, 255);
     display: flex;

@@ -7,18 +7,15 @@
 
 
 html,body{
-    
+    background-image: url(img/pexels-brayan-vieira-7661653.jpg);
     background-color: rgb(243, 243, 243);
+     background-position: center top;
+     background-repeat: no;
    
    
 }
 
-#fundo01{
-    background-image: url(img/pexels-brayan-vieira-7661653.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 100vh;
-}
+
 #cabeca{
     display: flex;
     flex-direction: row;
