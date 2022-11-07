@@ -9,14 +9,14 @@
 /*------------secao 01------------------*/
 
 #sec01{
-    position: relative;
+    position: static
+    ;
     display: flex;
     justify-content: space-around;
     align-items: center;
     display: flex;
-
     align-items: center;
-    height: 85vh;
+    height: 100vh;
 }
 
 

@@ -11,6 +11,7 @@ html,body{
     background-color: rgb(243, 243, 243);
      background-position: center top;
      background-repeat: no-repeat;
+     width: 100%;
    
    
 }
@@ -24,18 +25,16 @@ html,body{
     background:linear-gradient(to bottom, #ffffff,#ececec,#dddddd) ;
     height:max-content;
     padding: 1rem;
+    z-index: 1;
 
 }
 
-
-
- #menu{
+#menu{
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     
 }
 
@@ -47,9 +46,7 @@ html,body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    
-    
-    
+  
 }
 #menu a{
     margin-left: 1rem;
@@ -95,12 +92,14 @@ width: 100%;
 
 
 footer{
+    
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
     margin: 0px 50 0px 20px;
     background: #333333;
+    padding: 1rem;
 
 }
 #fundope{
