@@ -22,7 +22,7 @@ html,body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom, #ffffff,#ececec,#dddddd) ;
+    background:linear-gradient(to bottom, #ffffff,#ececec,#dbdbdb) ;
     height:max-content;
     padding: 1rem;
     
