@@ -73,9 +73,9 @@
     width: 15.5rem;
     height: 29rem;
     background: #383838;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.637);
+    box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.418);
     border-radius: 15px;
-    border: 2px solid rgb(59, 59, 59);;
+    border: 2px solid rgb(53, 52, 52);;
     padding: 1rem;
     
 }
@@ -168,7 +168,7 @@ form>label>input{
 }
 
 #linkc:hover{
-    color: #db0000;
+    color: #d40007;
     background-size: 100% 100%;
     background-position: center;
     
@@ -216,7 +216,7 @@ input[type=checkbox] + label:before {
 input[type=checkbox]:checked + label:before {
     color: #FFF;
     border: 1px solid #949494;
-    background: #a80000
+    background: #b3070de5
 }
 
 
@@ -237,45 +237,71 @@ input[type=checkbox] + label {
 position: relative;
 overflow: hidden;
 height: 3rem;
-padding: 0 1.3rem;
 border-radius: 0.8rem;
-background: #5b5a5f96;
-background-size: 400%;
-color: #ffffff;
-border: 1px solid rgba(46, 41, 41, 0.5);
-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
-cursor: pointer;
-transition: 0.5s;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: #1f1a29;
+box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.164);
+overflow: hidden;
+border: none;
 
 }
 .botao::before{
-    content: "";
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #b3070de5;
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    width: 100%;
-    height: inherit;
-    border-radius: initial;
-    background: linear-gradient(-45deg, rgb(124, 5, 5)  ,rgb(199, 18, 18) )  ;
-    transition: all 0.5s;
+    transition: all 0.4s ease-in-out;
+    right: 0;
   
     
     
     
 }
 .botao:hover::before{
-   transform: scaleX(1);
+    right: auto;
+    left: 0;
+    width: 100%;
    
 }
 
+button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 5px 5px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+    font-family:Arial, Helvetica, sans-serif ;
+   }
+   
+   button:hover span {
+    color: #ffffff;
+    animation: scaleUp 0.6s ease-in-out;
+   }
 
-
-.button{
-    position: relative;
-    z-index: 1;
-}
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.85);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   
 #botoes{
     
     display: flex;
