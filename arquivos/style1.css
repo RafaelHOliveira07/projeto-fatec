@@ -72,17 +72,17 @@
 
     width: 15.5rem;
     height: 29rem;
-    background: #eceae7;
+    background: #383838;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.637);
     border-radius: 15px;
-    border: 2px solid rgb(139, 5, 5);;
+    border: 2px solid rgb(59, 59, 59);;
     padding: 1rem;
     
 }
 
 #centro>h2{
     
-    color: rgb(139, 5, 5);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -101,7 +101,7 @@ form>label{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    color: rgb(139, 5, 5);
+    color: rgb(255, 255, 255);
     font-weight: lighter;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -114,7 +114,7 @@ form>label>input{
     margin-top: 10px;
     padding: 10px;
     border: none;
-    border-bottom:rgb(139, 5, 5) 2px solid ;
+    border-bottom:rgb(153, 0, 0) 2px solid ;
     background-color: rgba(255, 255, 255, 0);
     outline: none;
       
@@ -139,7 +139,7 @@ form>label>input{
 
 
 ::-webkit-input-placeholder  {
-    color: #aa1313; 
+    color: #ffffff; 
     font-style: italic;
 }
 
@@ -152,14 +152,14 @@ form>label>input{
 }
 #linkc{
     margin-top: 10%;
-    color: rgb(161, 5, 5);;
+    color: rgb(255, 255, 255);;
     border: none;
     font-weight: bolder; 
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 1em;
-    background-image: linear-gradient(transparent 0%,transparent 90%, rgb(190, 8, 8) 90%, rgb(204, 9, 9) 100%);
+    background-image: linear-gradient(transparent 0%,transparent 90%, rgb(214, 0, 0) 90%, rgb(212, 0, 0) 100%);
     background-repeat: no-repeat;
     background-size: 0% 100%;
     background-position-x: center;
@@ -168,9 +168,10 @@ form>label>input{
 }
 
 #linkc:hover{
-    color: #d30e0e;
+    color: #db0000;
     background-size: 100% 100%;
     background-position: center;
+    
     
 }
 /*------------chech box------------------*/
@@ -182,7 +183,9 @@ form>label>input{
     margin-left: 4%;
     font-size: 0.8em;
 }
-
+#M-log{
+    color: white;
+}
 input[type=checkbox]{
     display: none;
     
@@ -196,7 +199,7 @@ input[type=checkbox] + label:before {
 
     font-size: 12px;
 
-    border: 1px solid #8d0000;
+    border: 1px solid #aaaaaa;
     border-radius: 4px;
 
     width:  0.8rem;
@@ -212,8 +215,8 @@ input[type=checkbox] + label:before {
 }
 input[type=checkbox]:checked + label:before {
     color: #FFF;
-    border: 1px solid #860303;
-    background: #830707
+    border: 1px solid #949494;
+    background: #a80000
 }
 
 
