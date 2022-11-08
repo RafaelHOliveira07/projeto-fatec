@@ -23,7 +23,7 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: #333333 ;
-    height:max-content;
+
     padding: 1rem;
     
 
@@ -64,19 +64,35 @@ html,body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: 1.3em;
-    background-image: linear-gradient(transparent 90%, rgb(248, 248, 248) 90%, rgb(228, 228, 228) 100%);
+    background-image: linear-gradient( transparent 90%, rgb(180, 4, 4) 90%, rgb(173, 3, 3) 100%);
     background-repeat: no-repeat;
     background-size: 0% 100%;
-    background-position-x: center;
+    background-position-x: right;
     transition: background-size 400ms;
+    
 }
 
 #menu a:hover{
     
   background-size: 100% 100%;
-  background-position: center;
- 
+  background-position: left;
+  animation: scale 0.8s ease-in-out;
+  
 }
+
+@keyframes scale {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(1.1);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
 
 #fate{
 
@@ -91,8 +107,9 @@ margin-right: 5rem;
 }
 .img{
     
-    max-width:150px;
-    filter: drop-shadow(2px 6px 8px rgba(53, 53, 53, 0.103));
+    
+    
+    filter: drop-shadow(6px 3px 10px rgba(0, 0, 0, 0.664));
 
 }
 
@@ -101,6 +118,7 @@ margin-right: 5rem;
     justify-content: center;
     align-items: center;
     width: 100%;
+    
    
     
    
@@ -110,7 +128,8 @@ margin-right: 5rem;
 
 #titulo{
     
-    
+    text-shadow: 6px 4px 10px rgba(0, 0, 0, 0.301);
+    filter: drop-shadow(6px 3px 10px rgba(0, 0, 0, 0.356));
     padding: 0.5rem 1rem;
     font-size: 3rem;
     text-align: left;
