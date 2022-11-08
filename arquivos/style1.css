@@ -9,14 +9,15 @@
 /*------------secao 01------------------*/
 
 #sec01{
-    position: static
-    ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
     display: flex;
     align-items: center;
-    height: 100vh;
+    align-items: center;
+    height: 80vh;
+    background-image: url(img/pexels-brayan-vieira-7661653.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 
@@ -110,6 +111,7 @@ form>label>input{
 
 
 .sec0{
+    
    display: flex; 
 }
 
@@ -173,8 +175,7 @@ form>label>input{
 input[type=checkbox]{
     display: none;
     
- 
-  
+
 }
 input[type=checkbox] + label:before {
     display: flex;
@@ -248,11 +249,20 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
 }
 .botao:hover::before{
    transform: scaleX(3);
-    
-   
+      
 }
 
-
+#central{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 10rem;
+    width: 100%;
+    
+}
 
 .button{
     position: relative;
@@ -273,7 +283,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
 
 #sec02{
     display: flex;
-    height: 106vh;
+    height: 100vh;
     border-top: 3px solid rgb(255, 255, 255);
     background-image: url(img/pexels-christina-morillo-1181534.jpg);
     background-size: cover;
@@ -283,9 +293,9 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
 
 
 #text02{
-  display: flex;
+    display: flex;
     width: 50rem;
-    background-color: rgba(34, 34, 34, 0.466);
+    background-color: rgba(70, 70, 70, 0.466);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
@@ -297,22 +307,22 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
 }
 
 #textodois{
-    
-    padding: 50px;
+    position: absolute;
+    display: flex;
+    padding: 3rem;
     border: 4px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    max-width: 70%;
-    margin-left: -8%;
+    height: 40rem;
     border-radius: 10px;
     box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.466);
+    max-height: 40rem;
     
 }
 
 #textodois p{
-    
-    margin: 0px  0px 50px 0px;
-    font-size: 1.36em;
+    max-width: 600px;
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -323,4 +333,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
     padding-left: 5px;
     border-radius: 2px;
 
+}
+
+.boxtext{
+    padding:  0.5rem 0;
+    max-width: 50rem;
+    
+    
+    
 }
