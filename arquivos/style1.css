@@ -18,6 +18,7 @@
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
+    z-index: 0;
 }
 #central{
     
@@ -26,7 +27,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 2rem;
-    gap: 10rem;
+    gap: 25rem;
     width: 100%;
     
 }
@@ -282,7 +283,7 @@ transition: 0.5s;
     
 }
 
-
+/*------------secao 02--------------*/
 
 #sec02{
     display: flex;
@@ -297,7 +298,7 @@ transition: 0.5s;
 
 #text02{
     display: flex;
-    width: 50rem;
+    width: 50vw;
     background-color: rgba(70, 70, 70, 0.466);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);

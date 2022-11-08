@@ -29,10 +29,10 @@ html,body{
 
 }
 #nave{
-
-    height: 20vh;
+    
+    
     width: 100%;
-    z-index: 1;
+
     
 
 }
@@ -48,12 +48,12 @@ html,body{
 
 #menuf{
     display: flex;
-    background-color: rgb(136, 10, 10);
+    background-color: rgb(119, 10, 10);
     width: 100%;
-    padding: 0.12rem;
+    padding: 0.3rem;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
   
 }
 #menu a{
@@ -79,26 +79,60 @@ html,body{
 }
 
 #fate{
+
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: right;
 align-items: center;
 width: 100%;
+gap: 10rem;
+margin-right: 5rem;
 
 }
-#fate>img{
-    max-width: 130px;
-    filter: drop-shadow(2px 6px 8px rgba(53, 53, 53, 0.253));
+.img{
+    
+    max-width:150px;
+    filter: drop-shadow(2px 6px 8px rgba(53, 53, 53, 0.103));
+
+}
+
+#titu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    
+   
+    
+
+}
+
+#titulo{
+    
+    
+    padding: 0.5rem 1rem;
+    font-size: 3rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    color: #000000;
 
 }
 
 
+#titulo>a{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(156, 10, 10);
+}
 
 footer{
     
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0px 50 0px 20px;
     background: #333333;
