@@ -166,24 +166,16 @@ form>label>input{
     padding: 0.2rem;
     margin-top: 0.5rem;
     color: rgb(255, 255, 255);;
-    border: none;
-    font-weight: bolder; 
-    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 0.9em;
-    background-image: linear-gradient(transparent 0%,transparent 95%, rgb(173, 4, 4) 90%, rgb(199, 1, 1) 100%);
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    background-position-x: center;
-    transition: background-size 600ms;
-    
+    transition: 0,5s ;
 }
 
 .linkc:hover{
     color: #ce0007;
-    background-size: 100% 100%;
-    background-position: center;
+    
+   
     
     
 }
