@@ -240,17 +240,12 @@ footer{
     
 }
 #redes{
+    
     display: flex;
-    align-items: center;
-    justify-content: left;
     flex-direction: column;
     z-index: 1;
 }
-#linkpe a{
-    
-    color: rgb(156, 156, 156);
-    
-}
+
 
 ul>h2{
     padding: 1rem 0rem;
@@ -260,8 +255,32 @@ ul li{
 }
 
 
+#links{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 5rem;
+    width: 13rem;
+    row-gap: 0.6rem;
+    
+    
+}
+#links>a>img{
+    
+    width: 1.8rem;
+    margin-right: 0.6rem;
+    
+
+}
 
 
+
+#links>a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3em;
+}
 
 
     
