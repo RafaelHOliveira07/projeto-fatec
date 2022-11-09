@@ -6,15 +6,7 @@
 
 
 
-html,body{
-    
-    background-color: rgb(0, 0, 0);
-     background-position: center;
-     background-repeat: no-repeat;
 
-     background-size: cover;
- 
-}
 
 
 #cabeca{
@@ -23,18 +15,12 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: #333333 ;
-
     padding: 1rem;
     
-
 }
 #nave{
-    
-    
+  
     width: 100%;
-
-    
-
 }
 
 #menu{
@@ -156,6 +142,7 @@ footer{
     margin: 0px 50 0px 20px;
     background: #333333;
     padding: 1rem;
+    height: 15rem;
 
 }
 #fundope{

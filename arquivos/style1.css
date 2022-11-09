@@ -336,58 +336,59 @@ button span {
     background-image: url(img/pexels-christina-morillo-1181534.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
   
 }
 
 
-#text02{
-    display: flex;
-    width: 50vw;
-    background-color: rgba(0, 0, 0, 0.712);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    color: rgb(255, 255, 255);
-    align-items: center;
-    justify-content: center;
-    font-variant: small-caps;
 
-   
-}
 
-#textodois{
-    position: absolute;
-    display: flex;
-    padding: 3rem;
-    
+#artigo{
     display: flex;
     flex-direction: column;
-    height: 40rem;
-    border-radius: 10px;
-    max-height: 40rem;
+    
+    
+}
+#textodois{
+    width: 50%;
+    height: 100%;
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
     
 }
 
 #textodois p{
-    max-width: 600px;
-    font-size: 1em;
+    color: white;
+    font-size: 1.1em;
+    margin: 0px 0px 10px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    width: 32rem;
+    text-align: justify;
+    white-space:pre-line;
+    
     
 }
 #textodois h2{
     color: #ffffff;
     font-size: 2em;
-    margin: 0px 0px 25px 0px;
-    border-bottom: 2px solid rgb(255, 255, 255) ;
-    padding-left: 5px;
-    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.63);
+    margin: 0px 0px 20px 0px;
+    border-left: 4px solid rgb(214, 1, 1);
+    padding-left: 0.5rem;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.349);
     
 
 }
 
 .boxtext{
-    padding:  0.5rem 0;
-    max-width: 50rem;
     
+    margin: 1rem 0px;
+  
     
     
 }
