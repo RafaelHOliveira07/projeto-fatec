@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
 </head>
 <body>
    
@@ -24,37 +25,34 @@
 
         </header>
 
-           <nav id="menu">
-              <div id="menuf">
-                    <a href="" class="menu_link">Inicio</a>
-                    <a href="" class="menu_link">Serviços</a>
-                    <a href="" class="menu_link">Atendimento</a>
-                    <a href="" class="menu_link">Sobre</a> 
-
-                
-
-              </div>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+              <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+              <li><a href="" class="menu_link">Sobre</a></li>
+              <li><a href=""class="menu_link">Produtos</a></li>
+              <li><a href=""class="menu_link">Portfólio</a></li>
+              <li><a href=""class="menu_link">Contato</a></li>
+            </ul>
+          </nav>
               <div class="login">
-                <div id="perf">
-                   <span class="material-symbols-outlined" id="simbol">
-                        account_circle
-                        </span>
-                                    <a href="#" id="perfil">Perfil do Candidato</a>
+                        <div id="perf">
+                            <span class="material-symbols-outlined" id="simbol">account_circle</span>
+                            <a href="#" id="perfil">Perfil do Candidato</a>
                         </div>
                 </div>
-            </nav>
+        </nav>
      
 
         <main>
                 
         </main>
 
-        <div id="fundope">
-            
-        </div>  
+<div id="fundope">
+</div>  
           
     <footer>
-       
                 <div id="linkpe">
                     <ul>
                             <h2>Fatec Itapira:</h2>
@@ -67,24 +65,31 @@
                     </ul>
                 </div>
 
-                    <div id="imgpe">
-                        <img src="img/logo-cps-braso.png" alt="brasao sao paulo" class="img">
-                    </div>
-
                 <div id="redes">
-                    <h2>Redes sociais</h2>
-                <div id="links">
-                    
-                    <a href=""><img src="img/whatsapp.png" alt=""> <p>Whatsapp</p> </a>
-                    <a href=""><img src="img/facebook.png" alt=""> <p>Facebook</p></a>
-                    <a href=""><img src="img/twitter.png" alt=""><p>Twiter</p></a>
-                    <a href=""><img src="img/youtube.png" alt=""> <p>Youtube</p></a>
-                
-                </div>
-                </div>
+                        <div id="links">
+                            
+                            <div class="social">
+                                <img src="img/whatsapp.png" alt=""><a href="https://api.whatsapp.com/send?phone=551938635210&text=" target="_blank">Whatsapp</a>
+                            </div>
+    
+                            <div class="social">
+                                <img src="img/facebook.png" alt=""><a href="https://www.facebook.com/fatecitapira" target="_blank">Facebook</a>
+                            </div>    
+    
+                            <div class="social">       
+                                <img src="img/twitter.png" alt=""><a href="https://www.facebook.com/fatecitapira" target="_blank">Twiter</a>
+                            </div>
+    
+                            <div class="social">
+                                <img src="img/youtube.png" alt=""> <a href="https://www.youtube.com/channel/UChyGJgx8OzKqhHJBDaKdOZA" target="_blank">Youtube</a>
+                            </div>
+                        </div>
+                    </div>
 
        
     </footer>
-        
+    
+    <script type="text/javascript" src="../js/Nav.js"></script>
 </body>
+
 </html>
