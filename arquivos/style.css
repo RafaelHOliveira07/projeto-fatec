@@ -21,6 +21,7 @@
     padding: 1rem;
     
 }
+
 #nav{
     display: flex;
     background-color: #1d1d1d;
@@ -34,21 +35,29 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 0.5rem;
+    gap: 3rem;
+    
   }
   
   #menu a {
+    z-index: 1;
     display: block;
-    padding: 0.5rem;
+    
   }
   
   #btn-mobile {
     display: none;
     color: white;
   }
+
+  #btn-mobile>span{
+    padding: 0;
+
+  }
   .menu_link{
-    margin-left: 1rem;
-    padding: 0.3rem;
+    width: 3rem;
+    text-indent: 5%;
+    padding: 0.5rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -59,7 +68,8 @@
     background-size: 100% 0%;
     background-position-x: top;
     transition: background-size 400ms;
-    border-radius:0.2rem;
+    border-radius: 0.2rem;
+    
     
 }
 
@@ -89,18 +99,23 @@
     #menu {
       display: flex;
       flex-direction: column;
+      align-items: left;
+      justify-content: left;
       position: absolute;
-      width: 100%;
-      top: 322px;
-      right: 0px;
+      width: 50%;
+      top: 340px;
+      left: 0px;
       background: #1d1d1d;
       transition: 0.6s;
       z-index: 1000;
       height: 0;
       visibility: hidden;
       overflow-y: hidden;
+      gap: 0;
       
     }
+
+  
     #nav{
         
         display: flex;
@@ -110,24 +125,27 @@
         
     }
     #nav.active #menu {
-      height: calc(35vh - 70px);
+      height: max-content;
       visibility: visible;
       overflow-y: auto;
     }
     #menu a {
-      padding: 1rem 0;
-      margin: 0 1rem;
+      padding: 1rem;
+      margin: 0;
       width: 100%;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.226);border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+      border-radius: 0;
     }
     #btn-mobile {
+      z-index: 1000;
       display: flex;
       padding: 0.5rem 1rem;
-      font-size: 1rem;
       border: none;
       background: none;
       cursor: pointer;
       gap: 0.5rem;
+      margin-left: -90%;
+      margin-top: 0.5rem ;
             
     }
     #hamburger {
@@ -155,9 +173,29 @@
       transform: rotate(-135deg);
       top: -7px;
     }
+    .menu_link{
+    text-indent: 5%;
+    padding: 0.35rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    background-image: linear-gradient( -45deg, rgb(233, 233, 233) , rgb(255, 255, 255) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 400ms;
   }
- 
-
+  .menu_link:hover{
+    
+    background-size: 100% 100%;
+    background-position: left;
+    animation: scale 500ms ease-in-out;
+    color: rgb(27, 24, 31);
+    
+  }
+}
 /*------------perfil do candidato---------------*/
 
 .material-symbols-outlined {
