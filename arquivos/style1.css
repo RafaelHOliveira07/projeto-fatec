@@ -3,7 +3,11 @@
     padding:0;
     font-family: Arial,sans-serif;
   }
-
+  @font-face {
+    font-family:'Growland Bold';
+    src: url(fonts/Growland\ Bold.otf);
+    font-weight: normal;
+}
 
 
 /*------------secao 01------------------*/
