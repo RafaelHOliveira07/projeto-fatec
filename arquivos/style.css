@@ -103,7 +103,7 @@
       justify-content: left;
       position: absolute;
       width: 50%;
-      top: 33%;
+      top: 100%;
       left: 0px;
       background: #1d1d1d;
       transition: 0.6s;
@@ -117,7 +117,8 @@
 
   
     #nav{
-        
+        position: absolute;
+        width: 100%;
         display: flex;
         background-color: #1d1d1d;
         flex-direction: column;
