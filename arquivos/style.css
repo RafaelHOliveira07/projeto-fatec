@@ -15,6 +15,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    height: 20%;
     justify-content: space-between;
     align-items: center;
     background-color: #333333 ;
@@ -23,25 +24,28 @@
 }
 
 #nav{
+    position: absolute;
+    width: 100%;
     display: flex;
     background-color: #1d1d1d;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 3rem;
     
 }
 #menu {
+  
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 3rem;
-    
+    margin-left: 2%;
   }
   
   #menu a {
     z-index: 1;
-    display: block;
+    
     
   }
   
@@ -95,7 +99,7 @@
      transform: scale(1);
     }
    }
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     #menu {
       display: flex;
       flex-direction: column;
@@ -112,6 +116,8 @@
       visibility: hidden;
       overflow-y: hidden;
       gap: 0;
+      border-radius: 0 0 1rem 0;
+      margin: 0;
       
     }
 
@@ -196,7 +202,13 @@
     color: rgb(27, 24, 31);
     
   }
+
+  a#titulo {
+    font-size: 1em;
+  }
+
 }
+
 /*------------perfil do candidato---------------*/
 
 .material-symbols-outlined {
@@ -212,11 +224,12 @@
 
 
 .login{
-position: absolute;
-display: flex;
-width: 100%;
-justify-content: right;
-margin-right: 5rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  
+  right: 0;
+
 
 
 }
@@ -228,7 +241,7 @@ margin-right: 5rem;
     font-size: 0.9em;
     text-decoration: none;
     font-weight: bolder;
-    
+   
     
 
 }
@@ -236,9 +249,8 @@ margin-right: 5rem;
 #perf{
     
     gap: 0.6rem;
-    padding: 1rem;
+    padding: 0.75em;
     display: flex;
-    width: 15rem;
     justify-content: center;
     align-items: center;
 }
@@ -247,29 +259,24 @@ margin-right: 5rem;
 #fate{
 
 display: flex;
-flex-direction: row;
-justify-content: right;
-align-items: center;
 
-gap: 10rem;
-margin-right: 8%;
 
 }
 .img{
 
-    max-width: 250px;
+    max-width: 100%;
 
 }
 
 #titu{
-    
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40rem;
-    font-size: 0.9em;
-    margin-left: 1%;
+    
+    
  
 }
 
@@ -278,7 +285,6 @@ a#titulo {
     text-shadow: 6px 4px 10px rgba(0, 0, 0, 0.253);
     filter: drop-shadow(6px 3px 10px rgba(0, 0, 0, 0.356));
     font-size: 3em;
-    text-align: left;
     font-family: 'Growland\ Bold';
     color: #ffffff;
 
