@@ -12,6 +12,9 @@
 
   body{
     background-image: url(img/pexels-brayan-vieira-7661653.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
 body,.sec_0adm{
