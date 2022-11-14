@@ -15,7 +15,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    height: 20%;
+    height: max-content;
     justify-content: space-between;
     align-items: center;
     background-color: #333333 ;
