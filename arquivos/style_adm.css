@@ -1,0 +1,306 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+  @font-face {
+    font-family:'Growland Bold';
+    src: url(fonts/Growland\ Bold.otf);
+    font-weight: normal;
+}
+
+  body{
+    background-image: url(img/pexels-brayan-vieira-7661653.jpg);
+  }
+
+body,.sec_0adm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#adm{
+ position: absolute;
+ top: 10%;
+ text-align: center;
+ width: 100%;
+ font-size: 2em;
+ color: #FFF;
+ 
+}
+
+#adm>h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+.sec_0adm{
+    position: absolute;
+    height: max-content;
+   
+}
+
+
+
+#formulario{
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 29rem;
+    background: #383838;
+    box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.418);
+    border-radius: 15px;
+    border: 2px solid rgb(53, 52, 52);;
+    padding: 1rem;
+    
+}
+
+#centro>h2{
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    width: 100px;
+    padding: 0.125rem;
+    font-variant: small-caps;
+    border-bottom: 2px solid rgb(148, 7, 7);
+    
+    
+  
+    
+}
+
+
+
+
+form>label{
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: left;
+  
+}
+
+
+
+form>label>input{
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    border: none;
+    width: 200px;
+    border-bottom:rgb(182, 1, 1) 2px solid ;
+    background-color: #242227a9;  
+}
+
+
+.sec0{
+    
+   display: flex; 
+}
+
+
+#form01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+    
+}
+
+
+
+::-webkit-input-placeholder  {
+    color: #ffffff; 
+    font-style: italic;
+   
+}
+
+  #linkf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+
+.linkc{
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    color: rgb(255, 255, 255);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.9em;
+    transition: 0,5s ;
+    text-decoration: none;
+}
+
+.linkc:hover{
+    color: #ce0007;
+    
+   
+    
+    
+}
+/*------------chech box------------------*/
+#chek{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-left: 6%;
+    font-size: 0.8em;
+}
+#M-log{
+    color: white;
+}
+input[type=checkbox]{
+    display: none;
+    
+
+}
+input[type=checkbox] + label:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-size: 10px;
+
+    border: 1px solid #424242;
+    border-radius: 4px;
+
+    width:  0.8rem;
+    height: 0.8rem;
+
+    color: transparent;
+    transition: .3s;
+
+    margin-right: 5px;
+
+    background: rgb(119, 119, 119);
+    cursor: pointer;
+}
+input[type=checkbox]:checked + label:before {
+    color: #FFF;
+    
+    background: #b3070de5
+}
+
+
+input[type=checkbox] + label:before {
+    content: "\2713";
+}
+input[type=checkbox] + label {
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/*------------secao botao------------------*/
+
+.botao{
+    
+position: relative;
+overflow: hidden;
+height: 3rem;
+border-radius: 0.8rem;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: #242227;
+box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.199);
+overflow: hidden;
+border: none;
+border: 2px solid rgb(51, 46, 46);
+cursor: pointer;
+}
+.botao::before{
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #b3070de5;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+    
+  
+    
+    
+    
+}
+.botao:hover::before{
+    right: auto;
+    left: 0;
+    width: 100%;
+   
+}
+
+button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 5px 5px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+    font-family:Arial, Helvetica, sans-serif ;
+   }
+   
+   button:hover span {
+    color: #ffffff;
+    animation: scaleUp 0.6s ease-in-out;
+   }
+
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.85);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   
+#botoes{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 5px 0px;
+    
+}
