@@ -60,7 +60,7 @@ body,.sec_0adm{
     justify-content: center;
     align-items: center;
     width: 15.5rem;
-    height: 29rem;
+    height: 27.5rem;
     background: #383838;
     box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.418);
     border-radius: 15px;
@@ -73,13 +73,14 @@ body,.sec_0adm{
     
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    width: 100px;
-    padding: 0.125rem;
+    width: 100%;
+    padding: 1.11rem;
     font-variant: small-caps;
     border-bottom: 2px solid rgb(148, 7, 7);
+    border-radius: 15px 15px 0px 0px ;
+    background-color: #242227
     
     
   
