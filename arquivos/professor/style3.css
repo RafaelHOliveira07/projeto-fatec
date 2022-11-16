@@ -1,0 +1,59 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+  body{
+    
+    background-size: cover 100%;
+    background-color: rgb(34, 34, 34);
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    background-color: #ffff;
+    max-width: 1000px;
+    height: max-content;
+    margin: auto;
+    padding:1rem;
+    
+  }
+
+
+
+  .img-sobre{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+  }
+
+  .img-sobre>img{
+    max-width: 100%;
+  }
+
+
+  main>article{
+    max-width: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    row-gap: 1rem;
+    margin-bottom: 5%;
+  }
+  main>article>p{
+    
+    row-gap: 4rem;
+    text-indent: 0.7rem;
+    font-size: clamp(1em, 1em + 1vw, 1em);
+  }
