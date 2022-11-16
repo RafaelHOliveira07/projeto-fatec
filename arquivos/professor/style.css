@@ -244,13 +244,13 @@ footer{
 
 
 
-ul{
+footer ul{
     display: flex;
     justify-content:left;
     flex-direction: column;
     row-gap: 0.5rem;
 }
-ul li{
+footer>ul li{
     display: flex;
      
 }
@@ -438,5 +438,8 @@ footer{
 #redes{
   margin: 0;
 }
-
+ul li{
+  display: flex;
+   
+}
 }
