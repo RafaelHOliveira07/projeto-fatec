@@ -80,25 +80,25 @@
     justify-content: center;
     align-items: center;
     width: 15.5rem;
-    height: 29rem;
+    height: 25rem;
     background: #383838;
-    box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.418);
+    box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.534);
     border-radius: 15px;
-    border: 2px solid rgb(53, 52, 52);;
-    padding: 1rem;
+    
+    padding: 1.5rem;
     
 }
 
 #centro>h2{
     
    
-    
+        
         color: rgb(255, 255, 255);
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2em;
         width: 100%;
-        padding: 1.11rem;
+        padding: 1.5rem;
         font-variant: small-caps;
         border-bottom: 2px solid rgb(148, 7, 7);
         border-radius: 15px 15px 0px 0px ;
@@ -118,7 +118,7 @@
 
 form>label{
     
-    margin-top: 30px;
+   
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -329,71 +329,5 @@ button span {
     justify-content: center;
     align-items: center;
     margin: 0px 0px 5px 0px;
-    
-}
-
-/*------------secao 02--------------*/
-
-#sec02{
-    display: flex;
-    height: 100vh;
-    border-top: 3px solid rgb(255, 255, 255);
-    background-image: url(img/pexels-christina-morillo-1181534.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  
-}
-
-
-
-
-#artigo{
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-#textodois{
-    width: 50%;
-    height: 100%;
-    background-color: #383838;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-    
-    
-}
-
-#textodois p{
-    color: white;
-    font-size: 1.1em;
-    margin: 0px 0px 10px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-rendering: optimizeLegibility;
-    width: 32rem;
-    text-align: justify;
-    white-space:pre-line;
-    
-    
-}
-#textodois h2{
-    color: #ffffff;
-    font-size: 2em;
-    margin: 0px 0px 20px 0px;
-    border-left: 4px solid rgb(214, 1, 1);
-    padding-left: 0.5rem;
-    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.349);
-    
-
-}
-
-.boxtext{
-    
-    margin: 1rem 0px;
-  
-    
     
 }
