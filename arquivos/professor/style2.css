@@ -83,7 +83,7 @@
 }
 
 #para>p{
-  
+  text-align: center;
   font-size: clamp(1em, 1em + 1vw, 1em);
   font-weight: bolder;
 
