@@ -7,7 +7,7 @@
   body{
     
     background-size: cover 100%;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(36, 36, 36);
     background-attachment: fixed;
     height: 100vh;
   }
@@ -29,36 +29,24 @@
   .img-inicio{
     
     display: flex;
-    background-image: url(img/pexels-yan-krukov-8199169.jpg);
-    background-position: center;
+    background-image: url(img/wepik-photo-mode-20221016-232549.png);
+    background-position: top;
     width: 100%;
     background-size: cover;
     height: 30rem;
     margin: 0;
-    justify-content: space-around;
+    justify-content: left;
   }
   
-  #fundo-texto{
-
-    
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    
-    height: 4rem;
-    padding: 1rem;
-    
-    justify-content: space-between;
-
-  }
-
+  
 
   #text{
-    width: 100%;
+    padding: 1rem;
+    width: 40rem;
     display: flex;
-    flex-direction: column;
+    max-width: 45%;
     row-gap: 1.5rem;
-    font-size: clamp(2em, 1em + 1vw, 3.3em);
+    font-size: clamp(1em, 2em + 1vw, 1.8em);
     
     
   }
@@ -73,13 +61,42 @@
 
   h2>span{
     
-  color: rgb(230, 4, 4);
+  color: rgb(240, 3, 3);
+
   
 
   }
 
-  #titu01,#titu02{
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
+  #titu01{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.568);
   }
 
 
+#para{
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: 0.5rem;
+}
+
+#para>p{
+  max-width: 800px;
+  font-size: clamp(1em, 1em + 1vw, 1em);
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+
+
+
+
+@media  (max-width: 700px) {
+  .img-inicio{
+    margin-top: 3rem;
+  }
+}
