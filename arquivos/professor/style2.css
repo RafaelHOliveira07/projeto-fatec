@@ -7,9 +7,11 @@
   body{
     
     background-size: cover 100%;
-    background-color: rgb(36, 36, 36);
+    background-color: #ffffff;
     background-attachment: fixed;
     height: 100vh;
+    
+    
   }
 
   main{
@@ -19,9 +21,9 @@
     align-items: center;
     background-color: #ffff;
     max-width: 1000px;
-    height: 100%;
+    height: max-content;
     margin: auto;
-   
+    
 
     
   }
@@ -33,7 +35,7 @@
     background-position: top;
     width: 100%;
     background-size: cover;
-    height: 30rem;
+    height: 70%;
     margin: 0;
     justify-content: left;
   }
@@ -42,11 +44,11 @@
 
   #text{
     padding: 1rem;
-    width: 23.5rem;
+    
     display: flex;
-    max-width: 45%;
+    max-width: 50%;
     row-gap: 1.5rem;
-    font-size: clamp(1em, 2em + 1vw, 1.8em);
+    font-size: clamp(2em, 1.5em + 1vw, 1em);
     
     
   }
@@ -75,7 +77,7 @@
 
 #para{
   width: 100%;
-  background-color: rgb(22, 22, 22);
+  background-color: #1d1d1d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,10 +91,144 @@
 
 }
 
+.cursos{
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5%;
+
+  
+}
+
+.cursobox{
+  margin: 2.5rem 0;
+  width: 20rem;
+  height: 20rem;
+  background-color: #1d1d1d;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+.textc{
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  height: 100%;
+  background-color: #1d1d1d;
+  height: max-content;
+  row-gap: 0.5rem;
+  padding: 0.8rem;
+  border-radius:0 0 0.9rem 0.9rem;
+
+}
 
 
+.textc h3{
+  color: white;
+  font-size: medium;
+  
+
+}
+.textc p{
+  color: #ffff;
+  font-weight: bolder;
+  
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: max-content;
+ 
+  font-size: small;
+}
+
+.second{
+  position: absolute;
+  opacity: 0;
+  backface-visibility: hidden;
+  text-align: center;
+  width: 10rem;
+  font-weight: bolder;
+  margin-bottom: 8rem;
+
+  
+}
 
 
+#gpi{
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/teamwork-3213924_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+
+#gpi:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(img/teamwork-3213924_640.jpg);
+  transition:  2s;
+}
+
+#ge{
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/fatec-itapira.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+
+#ge:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.87),rgba(226, 220, 220, 0.842)),url(img/fatec-itapira.png);
+  transition:  2s;
+}
+
+#dsm{
+  background:linear-gradient(rgba(104, 104, 104, 0),rgba(161, 161, 161, 0)),url(img/code-1839406_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+#dsm:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.897),rgba(226, 220, 220, 0.877)),url(img/code-1839406_640.jpg);
+  transition:  2s;
+}
+
+#gti{
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/fatec-itapira.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+
+#gti:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.856),rgba(226, 220, 220, 0.829)),url(img/fatec-itapira.png);
+  transition:  2s;
+}
+
+.cursobox:hover .second {
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+
+.cursobox:hover  .textc {
+    opacity: 0;
+}
 @media  (max-width: 700px) {
   .img-inicio{
     margin-top: 3rem;

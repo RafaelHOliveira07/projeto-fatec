@@ -9,7 +9,15 @@
     src: url(fonts/Growland\ Bold.otf);
     font-weight: normal;
 }
-
+body{
+    
+  background-size: cover 100%;
+  background-color: #ffffff;
+  
+  height: 100vh;
+  
+  
+}
 #cabeca{
     
     box-sizing: border-box;
