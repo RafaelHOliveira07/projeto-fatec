@@ -42,7 +42,7 @@
 
   #text{
     padding: 1rem;
-    width: 40rem;
+    width: 23.5rem;
     display: flex;
     max-width: 45%;
     row-gap: 1.5rem;
@@ -80,14 +80,12 @@
   justify-content: center;
   align-items: center;
   height: 3rem;
-  padding: 0.5rem 0;
 }
 
 #para>p{
-  max-width: 800px;
+  
   font-size: clamp(1em, 1em + 1vw, 1em);
   font-weight: bolder;
-  text-align: center;
 
 }
 
