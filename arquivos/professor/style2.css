@@ -33,8 +33,9 @@
     display: flex;
     background-image: url(img/wepik-photo-mode-20221016-232549.png);
     background-position: top;
-    width: 100%;
     background-size: cover;
+    width: 100%;
+    
     height: 70%;
     margin: 0;
     justify-content: left;
@@ -46,9 +47,9 @@
     padding: 1rem;
     
     display: flex;
-    max-width: 50%;
-    row-gap: 1.5rem;
-    font-size: clamp(2em, 1.5em + 1vw, 1em);
+    max-width: 55%;
+   
+    font-size: clamp(3vw, 4vw + 1vw, 2em);
     
     
   }
@@ -163,7 +164,7 @@
 
 
 #gpi{
-  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/teamwork-3213924_640.jpg);
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/wepik-photo-mode-20221017-142641.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -173,12 +174,12 @@
 
 
 #gpi:hover {
-  background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(img/teamwork-3213924_640.jpg);
+  background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(img/wepik-photo-mode-20221017-142641.png);
   transition:  2s;
 }
 
 #ge{
-  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/fatec-itapira.png);
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/teamwork-3213924_640.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,7 +189,7 @@
 
 
 #ge:hover {
-  background: linear-gradient(rgba(146, 146, 146, 0.87),rgba(226, 220, 220, 0.842)),url(img/fatec-itapira.png);
+  background: linear-gradient(rgba(146, 146, 146, 0.87),rgba(226, 220, 220, 0.842)),url(img/teamwork-3213924_640.jpg);
   transition:  2s;
 }
 
@@ -207,9 +208,9 @@
 }
 
 #gti{
-  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/fatec-itapira.png);
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/student-849822_640.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 
 
@@ -217,7 +218,7 @@
 
 
 #gti:hover {
-  background: linear-gradient(rgba(146, 146, 146, 0.856),rgba(226, 220, 220, 0.829)),url(img/fatec-itapira.png);
+  background: linear-gradient(rgba(146, 146, 146, 0.856),rgba(226, 220, 220, 0.829)),url(img/student-849822_640.jpg);
   transition:  2s;
 }
 
