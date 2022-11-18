@@ -177,7 +177,7 @@ display: flex;
 }
 
 a#titulo {
-    font-size: clamp(2em , 1em + 1vw ,vw);
+    font-size: 1.2em;
     filter: drop-shadow(6px 3px 20px rgba(0, 0, 0, 0.466));
    
     color: #fff;
