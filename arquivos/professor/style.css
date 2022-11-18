@@ -268,12 +268,7 @@ footer>ul li{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    
-    
-    
-
-    
-    
+      
     
 }
 .social>img{
@@ -443,12 +438,15 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
  
 }
 
 #redes{
-  margin: 0;
+  margin: auto;
+  
 }
+
 ul li{
   display: flex;
    
