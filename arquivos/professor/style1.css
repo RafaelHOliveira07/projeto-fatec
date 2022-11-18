@@ -12,17 +12,18 @@
 
 /*------------secao 01------------------*/
 
+
 #sec01{
     
     display: flex;
     align-items: center;
-    height: 50rem;
+    height: 100%;
     width: 100%;
     background-image: url(img/pexels-brayan-vieira-7661653.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
-    z-index: 0;
+    
 }
 #central{
     
@@ -30,8 +31,9 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 2rem;
     width: 100%;
+  
+   
     
 }
 
@@ -42,7 +44,7 @@
     font-weight: bolder;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
     filter: drop-shadow( 4px 4px 13px rgba(0, 0, 0, 0.329));
-    font-size: 4em;
+    font-size: clamp(3em, 1em + 7vw, 4em);
     text-align: left;
     font-variant: small-caps;
     
@@ -51,7 +53,7 @@
    
 }
 #text01>h1>a{
-    color: rgb(189, 11, 11);
+    color: rgb(230, 8, 8);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -78,8 +80,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 15rem;
-    height: 29rem;
+    max-width: 15rem;
+    max-height: 29rem;
     background: #383838;
     box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.534);
     border-radius: 15px;
@@ -99,7 +101,7 @@
         width: 100%;
         padding: 1.5rem;
         font-variant: small-caps;
-        border-bottom: 2px solid rgb(148, 7, 7);
+        border-bottom: 2px solid rgb(230, 8, 8);
         border-radius: 15px 15px 0px 0px ;
         background-color: #242227
         
@@ -136,8 +138,9 @@ form>label>input{
     padding: 0.7rem;
     border: none;
     width: 200px;
-    border-bottom:rgb(182, 1, 1) 2px solid ;
-    background-color: #242227a9;  
+    border-bottom:rgb(230, 8, 8) 2px solid ;
+    background-color: #2422279a;  
+    color: #fff;
 }
 
 
@@ -186,10 +189,7 @@ form>label>input{
 
 .linkc:hover{
     color: #ce0007;
-    
-   
-    
-    
+  
 }
 /*------------chech box------------------*/
 #chek{
@@ -329,4 +329,23 @@ button span {
     align-items: center;
     margin: 0px 0px 5px 0px;
     
+}
+
+
+@media (max-width: 1000px){
+
+
+#central{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    
+}
+
+
+#text01>h1{
+    text-align: center;
+}
+
 }

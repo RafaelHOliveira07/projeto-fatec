@@ -57,10 +57,10 @@ background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     display: flex;
-    row-gap: 1rem;
+    row-gap: 2.3rem;
     margin: 5rem 0rem;
     border: 2px solid black;
-    padding: 2rem;
+    padding: 3rem 1.3rem;
     border-radius: 1rem;
   }
   main>article>p{

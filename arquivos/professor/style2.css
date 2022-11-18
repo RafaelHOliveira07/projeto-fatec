@@ -14,19 +14,7 @@
     
   }
 
-  main{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffff;
-    max-width: 1000px;
-    height: max-content;
-    margin: auto;
-    
 
-    
-  }
 
   .img-inicio{
     
