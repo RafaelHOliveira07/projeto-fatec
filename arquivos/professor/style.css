@@ -128,8 +128,8 @@ body{
   position: absolute;
   display: flex;
   align-items: center;
-  
   right: 0;
+  margin-right: 3rem;
 
 
 
@@ -139,7 +139,7 @@ body{
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.3em;
     text-decoration: none;
     font-weight: bolder;
    
