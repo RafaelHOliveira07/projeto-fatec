@@ -129,7 +129,7 @@ body{
   display: flex;
   align-items: center;
   right: 0;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 
 
 
@@ -245,10 +245,14 @@ font-size: 1.3em;
     color: white;
     justify-content: left;
     align-items: center;
+    
    
     
 }
 
+#linkpe>li{
+  
+}
 
 
 
@@ -257,6 +261,7 @@ footer ul{
     justify-content:left;
     flex-direction: column;
     row-gap: 0.5rem;
+    list-style: none;
 }
 footer>ul li{
     display: flex;
