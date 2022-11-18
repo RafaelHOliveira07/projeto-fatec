@@ -36,7 +36,7 @@
     display: flex;
     max-width: 55%;
    
-    font-size: clamp(3vw, 4vw + 1vw, 2em);
+    font-size: clamp(3vw, 1em + 4vw, 1.28em);
     
     
   }
@@ -108,12 +108,13 @@
   
   box-sizing: border-box;
   display: flex;
+  height: 7.6rem;
   flex-direction: column;
   width: 100%;
   text-align: left;
-  height: 100%;
+  
   background-color: #1d1d1d;
-  height: max-content;
+  
   row-gap: 0.5rem;
   padding: 0.8rem;
   border-radius:0 0 0.9rem 0.9rem;
@@ -142,7 +143,7 @@
   opacity: 0;
   backface-visibility: hidden;
   text-align: center;
-  width: 10rem;
+  width: 12rem;
   font-weight: bolder;
   margin-bottom: 8rem;
 

@@ -17,7 +17,7 @@
     
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 55rem;
     width: 100%;
     background-image: url(img/pexels-brayan-vieira-7661653.jpg);
     background-size: cover;
@@ -155,7 +155,7 @@ form>label>input{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 4%;
+
     
 }
 
@@ -342,7 +342,9 @@ button span {
     row-gap: 4rem;
     
 }
-
+#centro{
+    
+}
 
 #text01>h1{
     text-align: center;
