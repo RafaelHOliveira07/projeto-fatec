@@ -16,8 +16,8 @@
 #sec01{
     
     display: flex;
-    align-items: center;
     height: 55rem;
+    align-items: center;
     width: 100%;
     background-image: url(img/pexels-brayan-vieira-7661653.jpg);
     background-size: cover;
@@ -26,12 +26,13 @@
     
 }
 #central{
-    
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    height: max-content;
   
    
     
