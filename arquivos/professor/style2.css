@@ -162,7 +162,16 @@
   
 }
 
+.second>p>a{
+  color: #ffff;
+  text-decoration: none;
+}
 
+
+.second>p>a:hover{
+  color: #ffff;
+  text-decoration: underline;
+}
 #gpi{
   background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/wepik-photo-mode-20221017-142641.png);
   background-repeat: no-repeat;
@@ -233,5 +242,10 @@
 @media  (max-width: 700px) {
   .img-inicio{
     margin-top: 3rem;
+  }
+
+  .cursos{
+    display: flex;
+    flex-direction: column;
   }
 }
