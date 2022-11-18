@@ -8,12 +8,11 @@
 
   main{
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
     row-gap: 3rem;
     background-color: #ffff;
-    max-width: 1000px;
     height: max-content;
     margin: auto;
     padding:1rem;
@@ -23,17 +22,33 @@
 
 
   .img-sobre{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(https://www.tribunadasaguas.com.br/wp-content/uploads/2021/05/fatec-itapira.jpg);
+background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center ;
+ width: 100%;
+ height: 70%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
     
     
   }
 
-  .img-sobre>img{
-    max-width: 100%;
+  .img-sobre>h1{
+    color: #ffff;
+    font-size: clamp(2em, 3em + 2vw, 3em);
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+
+  }
+
+  #faixa{
+    width: 100%;
+    background-color: #1d1d1d;
+    height: 3rem;
   }
 
 
@@ -43,7 +58,10 @@
     justify-content: center;
     display: flex;
     row-gap: 1rem;
-    margin-bottom: 5%;
+    margin: 5rem 0rem;
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 1rem;
   }
   main>article>p{
     
