@@ -49,6 +49,13 @@ background-repeat: no-repeat;
     width: 100%;
     background-color: #1d1d1d;
     height: 3rem;
+    color: #ffff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
 
 
