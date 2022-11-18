@@ -26,8 +26,10 @@ body{
     height: max-content;
     justify-content: space-between;
     align-items: center;
+    height: 10rem;
     background-color: #333333 ;
     padding: 1rem;
+    gap: 2%;
     
 }
 
@@ -174,13 +176,11 @@ display: flex;
     
 }
 
-a#titulo {
-     font-size: clamp(2em, 1em + 3vw, 3.3em);
-    text-shadow: 6px 4px 20px rgba(0, 0, 0, 0.233);
+a#titulo>img {
+     
     filter: drop-shadow(6px 3px 20px rgba(0, 0, 0, 0.466));
-    font-family: 'Growland\ Bold';
-    color: #ffffff;
-    text-decoration: none;
+    max-width: 100%;
+   
 
 }
 
