@@ -31,12 +31,11 @@
   
 
   #text{
-    padding: 1rem;
-    
+
+    padding: 3.5rem 1rem;
     display: flex;
-    max-width: 55%;
-   
-    font-size: clamp(3vw, 1em + 4vw, 1.28em);
+    width: 60%;
+    font-size: clamp(3vw, 1em + 4vw, 1em);
     
     
   }
@@ -69,7 +68,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0;
+ 
   height: 3rem;
 }
 
