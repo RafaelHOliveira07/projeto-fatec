@@ -200,12 +200,15 @@ a#titulo {
 footer{
     
     display: flex;
-    flex-direction:row;
-    justify-content: space-between;
     align-items: center;
     background: #333333;
-    height: 15rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 2rem 0;
+    gap: 3rem;
+    justify-content: center;
 
 }
 #fundope{
@@ -225,17 +228,12 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    row-gap:1rem;
-    margin-right: 4rem;
+    
+    
   
 }
 
-.social>a{
-    color: white;
-    text-decoration: none;
-font-size: 1.3em;
 
-}
 
 
 
@@ -279,27 +277,57 @@ footer>ul li{
 }
 .social>a>img{
     
-    width: 2.2rem;
-    margin-right: 0.3rem;
+    width: 2.6rem;
     align-items: center;
-    padding: 0.2rem;
-   
-   
-   
+    border-radius: 10rem;
+   filter: invert(90%);
     
+   
 
 }
 
 .social{
-    width: 8rem;
+    width: 4rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+   
     
 
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding: 2rem 0;
+  gap: 3rem;
+  justify-content: center;
+  
+}
 
+
+#linkpe{
+  margin: 0;
+}
+#linkpe>ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+#redes{
+  margin: auto;
+  
+}
+
+ul li{
+  display: flex;
+   
+}
 @media (max-width: 1000px){
 
   #nav{
@@ -461,35 +489,5 @@ footer>ul li{
 }
 
 
-footer{
-  display: flex;
-  flex-direction: column;
-  height: max-content;
-  padding: 2rem 0;
-  gap: 3rem;
-  justify-content: center;
-  
-}
 
-
-#linkpe{
-  margin: 0;
-}
-#linkpe>ul{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
- 
-}
-
-#redes{
-  margin: auto;
-  
-}
-
-ul li{
-  display: flex;
-   
-}
 }
