@@ -173,14 +173,16 @@ display: flex;
 }
 
 #titu{
-   display: block;
+   display: flex;
+   flex-direction: column;
+
     
 }
 
 a#titulo {
-    font-size: 1.2em;
+
+    font-size: clamp(0.5em , 0.8em + 1vw ,3em);
     filter: drop-shadow(6px 3px 20px rgba(0, 0, 0, 0.466));
-   
     color: #fff;
     text-decoration: none;
    
