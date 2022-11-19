@@ -324,10 +324,7 @@ footer{
   
 }
 
-ul li{
-  display: flex;
-   
-}
+
 @media (max-width: 1000px){
 
   #nav{
