@@ -485,6 +485,9 @@ footer{
   
 }
 
-
+nav>ul li{
+  display: flex;
+   
+}
 
 }
