@@ -166,8 +166,9 @@ display: flex;
 
 }
 .img{
-    width: max-content;
+   
     max-width: 100%;
+    height: 6rem;
 
 }
 
@@ -271,12 +272,12 @@ footer>ul li{
 
 .links{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: left;
       
     
 }
-.social>img{
+.social>a>img{
     
     width: 2.2rem;
     margin-right: 0.3rem;
