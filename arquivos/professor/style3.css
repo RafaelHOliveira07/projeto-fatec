@@ -51,7 +51,7 @@ background-repeat: no-repeat;
     height: 3rem;
     color: #ffff;
     text-align: center;
-    padding: 1rem 0;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,3 +76,4 @@ background-repeat: no-repeat;
     text-indent: 0.7rem;
     font-size: clamp(1em, 1em + 1vw, 1em);
   }
+  
