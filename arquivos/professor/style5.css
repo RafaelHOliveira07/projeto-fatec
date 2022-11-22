@@ -22,13 +22,15 @@
   .rec{ 
     box-sizing: border-box;
     background-color: #333333;
-    height: 13rem;
-    width: 15rem;
+    height: 20rem;
+    width: 25rem;
     display: flex;
     align-items: center;
     flex-direction: column; 
    justify-content: center;
     border-radius:0 0  1rem 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+   
 
   }
 
@@ -38,7 +40,7 @@
     
     
     overflow: hidden;
-    height: 2.4rem;
+    height: 3rem;
     border-radius: 0.8rem;
     position: relative;
     display: flex;
@@ -121,24 +123,26 @@
         
     }
     #h1-rec{
-      position: relative;
+
+      position: absolute;
       display: flex;
-      width: 13rem;
+      width: 23rem;
       padding: 1rem;
       color: rgb(255, 255, 255);
       font-weight: lighter;
       justify-content: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       background-color: #1d1d1d;
-      border-bottom: 1px solid rgb(245, 2, 2);
+      border-bottom: 2px solid rgb(184, 1, 1);
       border-radius: 0.9rem 0.9rem 0 0;
-      margin-top: 4rem;
+      top: 42%;
+     
       
     
   }
   
   #h1-rec>h1{
-    font-size: 1em;
+    font-size: 1.7em;
   }
   
   form{
@@ -157,39 +161,38 @@
   ::-webkit-input-placeholder  {
     color: #ffffff; 
     font-style: italic;
-    font-size: x-small;
+    font-size: smaller;
 
    
 }
 
 #input{
-  margin-top:2rem ;
+  margin-top:10rem ;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  row-gap: 1.2rem;
+  row-gap: 1.5rem;
+  border-radius: 1rem;
 }
   #input>input{
       
       display: flex;
       
-      padding: 0.3rem;
+      padding: 0.6rem;
 
       border: none;
-      width: 170px;
-      border-bottom:rgb(230, 8, 8) 2px solid ;
+      width: 15rem;
+      border-bottom:rgb(184, 1, 1) 2px solid ;
       background-color: #2422279a;  
       color: #fff;
   }
 
+@media (max-width: 700px){
+.rec{
+padding-top: 2rem;
+}
+  
+}
 
-
-  .rec>p{
-    
-    text-align: center;
-    color: #fff;
-    padding: 1;
-    font-size: smaller;
-
-  }
+  
