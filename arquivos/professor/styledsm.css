@@ -1,0 +1,65 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+
+
+  body{
+    
+    background-size: cover 100%;
+    background-color: #ffffff;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    
+  }
+
+
+
+  .img-dsm{
+    
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.432)) , url(img/code-1839406_640.jpg);
+    
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-dsm>h1{
+    color: #ffff;
+    font-size: clamp(2em, 3em + 2vw, 3em);
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+  }
+  .faixa{
+    width: 100%;
+    background-color: #1d1d1d;
+    height: 3rem;
+    color: #ffff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #ffff;
+    height: max-content;
+    margin: auto;
+    padding:1rem;
+    
+  }

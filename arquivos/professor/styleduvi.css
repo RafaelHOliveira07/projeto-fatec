@@ -62,6 +62,10 @@
         
         
       }
+
+      .text-duv{
+        max-width: 50rem;
+      }
       .text-duv h2{
         display: flex;
         
@@ -76,9 +80,9 @@
       
       .text-duv p{
         
-        font-size: clamp( 1em , 1em + 1vw , 1.3em);
+        font-size: medium;
         line-height: 1.6rem;
-        word-spacing: 0px;
+        
         text-align: justify;
         text-overflow: clip;
         word-spacing: 0px;

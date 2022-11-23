@@ -13,6 +13,7 @@
     height: 55rem;
     width: 100%;
     background-image: url(img/pexels-brayan-vieira-7661653.jpg);
+    background-size: cover 100%;
     margin: auto;
     justify-content: center;
     align-items: center;

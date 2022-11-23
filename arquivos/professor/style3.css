@@ -5,13 +5,12 @@
   }
 
 
-
   main{
     display: flex;
-
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 3rem;
+    width: 90%;
     background-color: #ffff;
     height: max-content;
     margin: auto;
@@ -51,7 +50,7 @@ background-repeat: no-repeat;
     height: 3rem;
     color: #ffff;
     text-align: center;
-    
+    padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,16 +58,15 @@ background-repeat: no-repeat;
   }
 
 
-  main>article{
-    max-width: 40rem;
+  main>article {
+    max-width: 50rem;
     flex-direction: column;
     justify-content: center;
     display: flex;
-    row-gap: 2.3rem;
-    margin: 5rem 0rem;
-    border: 2px solid black;
-    padding: 3rem 1.3rem;
-    border-radius: 1rem;
+    row-gap: 2rem;
+    padding: 2rem 1.3rem;
+    
+    
   }
   main>article>p{
     
@@ -76,4 +74,31 @@ background-repeat: no-repeat;
     text-indent: 0.7rem;
     font-size: clamp(1em, 1em + 1vw, 1em);
   }
+  .text-duv{
+    max-width: 50rem;
+  }
+  .text-duv h2{
+    display: flex;
+    
+    font-weight: bolder;
+    font-size: clamp(2em , 1.3em + 2vw , 2.5em) ;
+    color: #4b4b4b;
+    font-variant: small-caps;
+    
   
+  }
+
+  
+  .text-duv p{
+    
+    font-size: medium;
+    line-height: 1.6rem;
+    
+    text-align: justify;
+    text-overflow: clip;
+    word-spacing: 0px;
+    white-space: normal;
+    text-indent: 10px;
+    
+     
+  }
