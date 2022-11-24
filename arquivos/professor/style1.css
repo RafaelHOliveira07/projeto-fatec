@@ -8,7 +8,11 @@
     src: url(fonts/Growland\ Bold.otf);
     font-weight: normal;
 }
-
+@font-face {
+    font-family:'Monserrat';
+    src: url(fonts/static/Montserrat-Medium.ttf);
+    font-weight: normal;
+}
 
 /*------------secao 01------------------*/
 
@@ -40,23 +44,34 @@
 
 /*------------Texto destaque secao01------------------*/
 
-#text01>h1{
+#text01>ul{
+    list-style: none;
+}
+
+#text01>ul>li>h1{
     color: #e7e7e7;
     font-weight: bolder;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
     filter: drop-shadow( 4px 4px 13px rgba(0, 0, 0, 0.329));
-    font-size: clamp(3em, 1em + 7vw, 4em);
+    font-size: clamp(2em, 1em + 7vw, 5em);
     text-align: left;
-    font-variant: small-caps;
+    font-family:'Monserrat';
+    
     
     
     
    
 }
-#text01>h1>a{
-    color: rgb(230, 8, 8);
+
+#text01>ul>li>p{
+    color: #ffffff;
+    font-family:'Monserrat';
+    font-size: 2em;
+}
+#text01>ul>li>p>a{
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 #text01{
@@ -145,10 +160,7 @@ form>label>input{
 }
 
 
-.sec0{
-    
-   display: flex; 
-}
+
 
 
 #form01{
@@ -343,12 +355,13 @@ button span {
     row-gap: 4rem;
     
 }
-#centro{
-    
-}
 
-#text01>h1{
-    text-align: center;
+
+#text01>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 }

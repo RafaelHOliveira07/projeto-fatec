@@ -9,6 +9,11 @@
     src: url(fonts/Growland\ Bold.otf);
     font-weight: normal;
 }
+@font-face {
+  font-family:'Monserrat';
+  src: url(fonts/static/Montserrat-Medium.ttf);
+  font-weight: normal;
+}
 body{
     
   background-size: cover 100%;
@@ -173,6 +178,7 @@ display: flex;
 }
 
 #titu{
+
    display: flex;
    flex-direction: column;
 
@@ -180,17 +186,17 @@ display: flex;
 }
 
 a#titulo {
-
+  font-family:'Monserrat';
     font-size: clamp(0.5em , 0.8em + 1vw ,3em);
     filter: drop-shadow(6px 3px 20px rgba(0, 0, 0, 0.466));
     color: #fff;
     text-decoration: none;
-   
+   font-variant: small-caps;
 
 }
 
 #titulo>span{
-    font-family: 'Growland\ Bold';
+  font-family:'Monserrat';
     color: rgb(230, 8, 8);
 }
 
@@ -355,8 +361,11 @@ footer{
     
   }
 
-  #titu{
-    text-align: center;
+  #titu>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   }
 @media (max-width: 700px) {

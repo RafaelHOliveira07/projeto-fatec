@@ -57,9 +57,99 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+
     background-color: #ffff;
     height: max-content;
     margin: auto;
     padding:1rem;
     
   }
+.editais-dsm{
+  width: 100%;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  row-gap: 2rem;
+  
+}
+.edital{
+  
+  width: 50rem;
+  background-color: #e4e4e4;
+ border-radius: 0.7rem;
+  height: 10rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.219);
+  
+  
+}
+
+
+
+.info{
+  border-radius: 0.7rem 0.7rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+}
+
+.info li{
+  font-size: small;
+  font-weight: bolder;
+  border-left: 2px solid red;
+ 
+  padding-left:0.3rem ;
+  
+}
+
+.add-info{
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ row-gap: 1rem;
+ 
+ padding: 1rem;
+
+
+}
+.add-info span{
+  color: #636363;
+  font-size: smaller;
+
+}
+.linkpdf>img{
+  width: 25px;
+}
+
+.linkpdf{
+  height: max-content;
+  display: flex;
+  gap: 0.4rem;
+  align-items: flex-end ;
+}
+.linkpdf>a{
+  color: #636363;
+  
+  
+  font-size: small;
+}
+
+.posi{
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button{
+  margin-right: 1rem;
+
+}
+
