@@ -361,11 +361,9 @@ footer{
     
   }
 
-  #titu>ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  #titu{
+    text-align: center;
+    
   }
   }
 @media (max-width: 700px) {

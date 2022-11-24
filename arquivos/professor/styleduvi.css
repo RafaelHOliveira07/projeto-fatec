@@ -3,7 +3,11 @@
     padding:0;
     font-family: Arial,sans-serif;
   }
-
+  @font-face {
+    font-family:'Monserrat';
+    src: url(fonts/static/Montserrat-Medium.ttf);
+    font-weight: normal;
+}
   main{
     display: flex;
     flex-direction: column;
@@ -35,8 +39,11 @@
 
 
      .img-duv>h1{font-weight: bold;
-        font-size: 3em;
+      font-size: clamp(2em, 1em + 7vw, 5em);
         color: #ffff;
+        font-family:'Monserrat';
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+
      }
      #faixa{
         width: 100%;

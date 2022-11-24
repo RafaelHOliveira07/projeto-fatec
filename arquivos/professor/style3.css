@@ -4,7 +4,11 @@
     font-family: Arial,sans-serif;
   }
 
-
+  @font-face {
+    font-family:'Monserrat';
+    src: url(fonts/static/Montserrat-Medium.ttf);
+    font-weight: normal;
+}
   main{
     display: flex;
     flex-direction: column;
@@ -37,9 +41,10 @@ background-repeat: no-repeat;
 
   .img-sobre>h1{
     color: #ffff;
-    font-size: clamp(2em, 3em + 2vw, 3em);
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    font-family:'Monserrat';
     text-align: center;
-    font-variant: small-caps;
+   
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
 
   }

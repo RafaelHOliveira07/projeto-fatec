@@ -66,7 +66,7 @@
 #text01>ul>li>p{
     color: #ffffff;
     font-family:'Monserrat';
-    font-size: 2em;
+    font-size: clamp(1em, 1em + 1vw,2em);
 }
 #text01>ul>li>p>a{
     color: rgb(255, 255, 255);

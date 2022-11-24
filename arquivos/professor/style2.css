@@ -19,47 +19,56 @@
   .img-inicio{
     
     display: flex;
-    background-image: url(img/wepik-photo-mode-20221016-232549.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.568)) , url(img/wepik-photo-mode-20221016-232549.png);
     background-position: top;
     background-size: cover;
     width: 100%;
     height: 70%;
     margin: 0;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
   
 
-  #text{
+  #text01>ul{
+    list-style: none;
+}
 
-    padding: 3.5rem 1rem;
+#text01>ul>li>h1{
+    color: #e7e7e7;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    filter: drop-shadow( 4px 4px 13px rgba(0, 0, 0, 0.329));
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    text-align: left;
+    font-family:'Monserrat';
+    
+    
+    
+    
+   
+}
+
+#text01>ul>li>p{
+    color: #ffffff;
+    font-family:'Monserrat';
+    font-size: clamp(1em, 1em + 1vw,2em);
+}
+#text01>ul>li>p>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+    
+}
+#text01{
+    
     display: flex;
-    width: 60%;
-    font-size: clamp(3vw, 1em + 4vw, 1em);
+    padding: 2rem;
+    flex-direction: column;
     
-    
-  }
- #text>h2,p{
-    
-    color: white;
-    padding: 0;
-    margin: 0;
-
-  }
-
-
-  h2>span{
-    
-  color: rgb(240, 3, 3);
-
-  
-
-  }
-
-  #titu01{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.568);
-  }
+}
 
 
 #para{
@@ -76,6 +85,7 @@
   text-align: center;
   font-size: clamp(1em, 1em + 1vw, 1em);
   font-weight: bolder;
+  color: #ffff;
 
 }
 
@@ -144,7 +154,7 @@
   width: 12rem;
   font-weight: bolder;
   margin-bottom: 8rem;
-
+  color: #ffff;
   
 }
 
