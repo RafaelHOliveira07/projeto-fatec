@@ -168,6 +168,7 @@ form>label>input{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-right: 10rem;
 
     
 }
@@ -364,4 +365,7 @@ button span {
     flex-direction: column;
 }
 
+#form01{
+    margin-right: 0;
+}
 }
