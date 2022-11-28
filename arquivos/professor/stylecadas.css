@@ -67,6 +67,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vh;
+  
  
 }
       form h1{
@@ -81,12 +82,7 @@
        margin-bottom: 2rem;
 
       }
-      .cadastro input>#{
-        border: none;
-        border-bottom: 2px solid #3d3d3d ;
-
-
-      }
+     
      
 
       ::-webkit-input-placeholder  {
