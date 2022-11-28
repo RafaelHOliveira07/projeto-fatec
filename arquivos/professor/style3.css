@@ -9,6 +9,15 @@
     src: url(fonts/static/Montserrat-Medium.ttf);
     font-weight: normal;
 }
+body{
+    
+  background-size: cover 100%;
+  background-color: #ffffff;
+ 
+  height: 100vh;
+  
+  
+}
   main{
     display: flex;
     flex-direction: column;

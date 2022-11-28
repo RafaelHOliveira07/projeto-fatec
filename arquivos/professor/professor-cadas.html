@@ -48,32 +48,44 @@
     <form action="">
         <section class="form">
             <section class="cadastro">        
-            <label for="nome">Nome:
-            <input type="text" id="mome" name="nome" placeholder="Digite seu nome completo"></label>
-            <label for="data"> Data Nasc:
-            <input type="date" name="data" id="data"></label>
-            <label for="email">E-mail:
-            <input type="email" id="email" name="email" placeholder="Digite seu endereço e-mail"></label>
-                </section>
-                <section class="cadastro">
-            <label for="cpf">CPF: 
-            <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF corretamente"></label>     
-            <label for="cep">Rua/Avenida: 
-            <input type="number" id="cep" name="cep" placeholder="Digite seu cep corretamente"></label>
-            <label for="num">Numero: 
-            <input type="number" name="num" id="num"></label>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+            <label for="data"> Data Nasc:</label>
+            <input type="date" name="data" id="data">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu endereço e-mail">
+           
+            <label for="cpf">CPF: </label>   
+            <input  id="cpf" name="cpf" placeholder="Digite seu CPF corretamente" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+			title="Digite um CPF no formato: xxx.xxx.xxx-xx">  
+            <label for="cep">Rua/Avenida: </label>
+            <input type="number" id="cep" name="cep" placeholder="Digite seu cep corretamente">
+            <label for="num">Numero: </label>
+            <input type="number" name="num" id="num">
 
-            <label for="senha">Senha: 
-            <input type="password" id="senha" name="senha" placeholder="4-6 caracteres"></label>
-            </section> 
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+            <label for="senha" id="cara">de 4 a 6 caracteres</label>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Comfirmar senha">
+           
         </section>
-            <div class="botao">
-                <input type="button" name="botao" id="botao" value="Comfirmar cadastro">
-            </div>
+        
+    </section> 
+    <div id="chek">
+        <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+        <label for="manterlogado" id="M-log">Concordo com os Termos de uso do Portal Fatec Itapira e também <br> em receber e-mails sobre novos editais.</label>
+    </div>
+    <div id="botoes">
+        <button class="botao" type="submit" name="" id="submit" value="Comfirmar">
+        <span class="button">Comfirmar</span></button>
+    </div>
        
  </form>   
-</div>
 
+<section class="lateral"> <span></span>
+</section>
 </main>
 
 

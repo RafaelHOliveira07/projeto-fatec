@@ -6,49 +6,237 @@
 
 
   body{
-        height: 100vh;
-      background: #ffff ;
-      background-size: cover;
+     
+
+      background-size: cover ;
+      
+      background-repeat: no-repeat;
+     
   }
 
   main{
-      width: 100%;
+     
+ width: 100%;
       height: max-content;
+     
       text-align: center;
-      margin-top: 2rem;
+      
       display: flex;
-      justify-content: center;
+      justify-content:space-between;
      
   }
 
   .cadastro{
+    
         margin-top: 2rem;
          flex-direction: column;
         display: flex;
         justify-content: left;
         align-items: left;
         text-align: left;
-        gap: 2rem;
+        
   }
-
+  label{
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+    color: #3d3d3d;
+    font-weight: bolder;
+  }
+  form{ 
+    max-width: 100%;
+    width: 60rem;
+    background-color: #FFF;
+   
+   
+  }
   
   .form{
       
-    width: 40rem;
-    height: 20rem;
-    background-color: #3d3d3d;
       display: flex;
-      justify-content: left;
+      justify-content: center;
       align-items: left;
       flex-direction: row; 
-      gap: 2rem;
+     
+      
+     
       }
-
+.lateral{
+  display: flex;
+  background-color: #3d3d3d;
+  background-image: url(img/window-770535_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vh;
+ 
+}
       form h1{
         text-align: center;
       }
 
       .cadastro input{
        padding: 0.5rem;
-       border-radius: 2rem;
+        width: 30rem;
+       border: none;
+       border-bottom: 2px solid #3d3d3d;
+       margin-bottom: 2rem;
+
       }
+      .cadastro input>#{
+        border: none;
+        border-bottom: 2px solid #3d3d3d ;
+
+
+      }
+     
+
+      ::-webkit-input-placeholder  {
+       
+        
+        font-weight: bolder;
+
+    }
+
+    #cara{
+      margin-top: -1.8rem;
+      font-size: small;
+      font-weight: bold;
+    }
+
+      #chek{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        
+        margin-right: 5rem;
+        font-size: 0.8em;
+    }
+    #M-log{
+        color: rgb(78, 78, 78);
+        font-size: small;
+        text-align: left;
+    }
+    input[type=checkbox]{
+        display: none;
+        
+    
+    }
+    input[type=checkbox] + label:before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        font-size: 10px;
+    
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+    
+        width:  0.8rem;
+        height: 0.8rem;
+    
+        color: transparent;
+        transition: .3s;
+    
+        margin-right: 5px;
+    
+        background: rgb(119, 119, 119);
+        cursor: pointer;
+    }
+    input[type=checkbox]:checked + label:before {
+        color: #FFF;
+        
+        background: #b3070de5
+    }
+    
+    
+    input[type=checkbox] + label:before {
+        content: "\2713";
+    }
+    input[type=checkbox] + label {
+        margin-top: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: left;
+    }
+      .botao{
+    
+        position: relative;
+        overflow: hidden;
+        height: 3rem;
+        border-radius: 0.8rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: #777677;
+        box-shadow: 0px 6px 10px rgba(87, 87, 87, 0.199);
+        overflow: hidden;
+        border: none;
+        
+        cursor: pointer;
+        }
+        .botao::before{
+            content: " ";
+            width: 0%;
+            height: 100%;
+            background: #b3070de5;
+            position: absolute;
+            transition: all 0.4s ease-in-out;
+            right: 0;
+            
+          
+            
+            
+            
+        }
+        .botao:hover::before{
+            right: auto;
+            left: 0;
+            width: 100%;
+           
+        }
+        
+        button span {
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+            padding: 5px;
+            color: #fff;
+            font-size: small;
+            font-weight: bolder;
+            letter-spacing: 0.1em;
+            z-index: 20;
+            transition: all 0.3s ease-in-out;
+            font-family:Arial, Helvetica, sans-serif ;
+           }
+           
+           button:hover span {
+            color: #ffffff;
+            animation: scaleUp 0.6s ease-in-out;
+           }
+        
+           @keyframes scaleUp {
+            0% {
+             transform: scale(1);
+            }
+           
+            50% {
+             transform: scale(0.85);
+            }
+           
+            100% {
+             transform: scale(1);
+            }
+           }
+           
+        #botoes{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            margin-top: 4rem;
+            margin-bottom: 3rem;
+        }

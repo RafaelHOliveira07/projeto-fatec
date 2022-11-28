@@ -8,6 +8,15 @@
     src: url(fonts/static/Montserrat-Medium.ttf);
     font-weight: normal;
 }
+body{
+    
+  background-size: cover 100%;
+  background-color: #ffffff;
+ 
+  height: 100vh;
+  
+  
+}
   main{
     display: flex;
     flex-direction: column;
@@ -43,6 +52,7 @@
         color: #ffff;
         font-family:'Monserrat';
         text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+
 
      }
      #faixa{
