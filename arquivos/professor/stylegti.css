@@ -29,12 +29,14 @@ body{
     align-items: center;
   }
 
-  .img-gti>h1{
-    color: #ffff;
-    font-size: clamp(2em, 3em + 2vw, 3em);
-    text-align: center;
-    font-variant: small-caps;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+  .img-gti h1{
+    color: #e7e7e7;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    filter: drop-shadow( 4px 4px 13px rgba(0, 0, 0, 0.329));
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    text-align: left;
+    font-family:'Monserrat';
   }
   .faixa{
     width: 100%;
