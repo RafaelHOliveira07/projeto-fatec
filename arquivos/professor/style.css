@@ -203,7 +203,7 @@ a#titulo {
 
 
 footer{
-    
+    position: absolute;
     display: flex;
     align-items: center;
     background: #333333;
@@ -214,6 +214,7 @@ footer{
     padding: 2rem 0;
     gap: 3rem;
     justify-content: center;
+   
 
 }
 #fundope{
@@ -226,21 +227,6 @@ footer{
     
     
 }
-
-#redes{
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    
-    
-  
-}
-
-
-
-
 
 
 
@@ -255,9 +241,6 @@ footer{
    
     
 }
-
-
-
 
 
 footer ul{
@@ -302,15 +285,7 @@ footer>ul li{
 
 }
 
-footer{
-  display: flex;
-  flex-direction: column;
-  height: max-content;
-  padding: 2rem 0;
-  gap: 3rem;
-  justify-content: center;
-  
-}
+
 
 
 #linkpe{
@@ -324,10 +299,7 @@ footer{
  
 }
 
-#redes{
-  margin: auto;
-  
-}
+
 
 
 @media (max-width: 1000px){
@@ -496,4 +468,17 @@ nav>ul li{
    
 }
 
+}
+
+
+.reveal{
+  position: relative;
+  transform: translatex(20px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active{
+  transform: translatex(0px);
+  opacity: 1;
 }
