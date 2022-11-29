@@ -45,44 +45,63 @@
    
 
     
-    <form action="">
+    
         <section class="form">
-            <section class="cadastro">        
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
-            <label for="data"> Data Nasc:</label>
-            <input type="date" name="data" id="data">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu endereço e-mail">
-           
-            <label for="cpf">CPF: </label>   
-            <input  id="cpf" name="cpf" placeholder="Digite seu CPF corretamente" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
-			title="Digite um CPF no formato: xxx.xxx.xxx-xx">  
-            <label for="cep">Rua/Avenida: </label>
-            <input type="number" id="cep" name="cep" placeholder="Digite seu cep corretamente">
-            <label for="num">Numero: </label>
-            <input type="number" name="num" id="num">
+           <div class="cadastro">
+                <form action="">
 
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
-            <label for="senha" id="cara">de 4 a 6 caracteres</label>
-
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" placeholder="Comfirmar senha">
-           
-        </section>
+                    <div class="input">      
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                    </div>  
+                    <div class="input">   
+                        <label for="data"> Data Nascimento:</label>
+                        <input type="date" name="data" id="data">
+                    </div>
+                    <div class="input">  
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu endereço e-mail">
+                    </div>
+                    <div class="input"> 
+                        <label for="cpf">CPF: </label>   
+                        <input  id="cpf" name="cpf" placeholder="000.000.000-00"  
+                        title="Digite um CPF no formato: xxx.xxx.xxx-xx">  
+                    </div>
+                    <div class="input">  
+                        <label for="cep">Cidade: </label>
+                        <input type="text" id="cep" name="cep" placeholder="Digite seu endereço">
+                    </div>
+                    <div class="input"> 
+                        <label for="cep">Rua/Avenida: </label>
+                        <input type="text" id="cep" name="cep" placeholder="Digite seu endereço">
+                    </div>
+                    <div class="input">  
+                        <label for="num">Numero: </label>
+                        <input type="number" name="num" id="num" placeholder="Digite numero da sua residencia" >
+                    </div>
+                    <div class="input">  
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                        <label for="senha" id="cara">de 4 a 6 caracteres</label>
+                    </div>
+                    <div class="input">  
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Comfirmar senha">
+                    </div>
+                    </form> 
+                  </div>   
         
-    </section> 
+    
     <div id="chek">
         <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-        <label for="manterlogado" id="M-log">Concordo com os Termos de uso do Portal Fatec Itapira e também <br> em receber e-mails sobre novos editais.</label>
+        <label for="manterlogado" id="M-log">Concordo com os Termos de uso do Portal Fatec Itapira e também em receber <br> e-mails sobre novos editais.</label>
     </div>
     <div id="botoes">
         <button class="botao" type="submit" name="" id="submit" value="Comfirmar">
         <span class="button">Comfirmar</span></button>
     </div>
-       
- </form>   
+  </section>      
+   
 
 <section class="lateral"> <span></span>
 </section>

@@ -5,35 +5,24 @@
   }
 
 
-  body{
-     
-
-      background-size: cover ;
-      
-      background-repeat: no-repeat;
-     
-  }
 
   main{
      
- width: 100%;
-      height: max-content;
-     
-      text-align: center;
       
+      height: max-content;
+      text-align: center;
+
       display: flex;
-      justify-content:space-between;
+      
      
   }
 
   .cadastro{
-    
+        position: relative;
         margin-top: 2rem;
-         flex-direction: column;
+        flex-direction: column;
         display: flex;
-        justify-content: left;
-        align-items: left;
-        text-align: left;
+        
         
   }
   label{
@@ -43,39 +32,60 @@
     font-weight: bolder;
   }
   form{ 
-    max-width: 100%;
-    width: 55rem;
-    background-color: #FFF;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  
+    
+    
    
    
   }
   
   .form{
-      
+      width: 50rem;
       display: flex;
       justify-content: center;
-      align-items: left;
-      flex-direction: row; 
-     
+      align-items: center;
+      flex-direction: column;
       
-     
-      }
+   
+
+   }
+
 .lateral{
   display: flex;
   background-color: #3d3d3d;
   background-image: url(img/window-770535_1280.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vh;
+  width: 50%;
   
  
 }
+
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  
+  
+}
+
+
+
+
       form h1{
         text-align: center;
       }
 
-      .cadastro input{
+      .input input{
+       
        padding: 0.5rem;
+       
         width: 30rem;
        border: none;
        border-bottom: 2px solid #3d3d3d;
@@ -103,7 +113,7 @@
         justify-content: center;
         align-items: flex-start;
         
-        margin-right: 5rem;
+        
         font-size: 0.8em;
     }
     #M-log{
@@ -235,4 +245,27 @@
             
             margin-top: 4rem;
             margin-bottom: 3rem;
+        }
+
+        @media (max-width: 1000px){
+          .lateral{
+            display: none;
+          }
+          main{
+            display: flex;
+            justify-content: center;
+          }
+          .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+
+          }
+          .input{
+            display: flex;
+            flex-direction: column;
+            
+          }
         }
