@@ -37,7 +37,6 @@ main{
     border-radius: 20rem;
     width: 14rem;
     height: 14rem;
-   
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.301);
     
 }
@@ -136,7 +135,7 @@ form{
     font-size: 2rem;
     border: none;
     width: 100%;
-    padding: 1rem  ;
+   padding: 1rem;
     
     
 }
@@ -144,5 +143,15 @@ form{
 @media (max-width: 700px ) {
     .imgperf{
         margin-top: 4rem;
+    }
+    #name{
+        text-align: center;
+        
+        font-size: 1.5rem;
+        border: none;
+        width: 100%;
+        padding: 1rem;
+        
+        
     }
 }

@@ -25,7 +25,7 @@ function reveal(){
 
     var windowheight = window.innerHeight;
     var revealtop = reveals[i].getBoundingClientRect().top;
-    var revealpoint = 20;
+    var revealpoint = 10;
 
     if(revealtop < windowheight - revealpoint){
       reveals[i].classList.add('active');
