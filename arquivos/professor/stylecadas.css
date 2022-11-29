@@ -4,24 +4,32 @@
     font-family: Arial,sans-serif;
   }
 
-
+  @font-face {
+    font-family:'Monserrat';
+    src: url(fonts/static/Montserrat-Medium.ttf);
+    font-weight: normal;
+  }
 
   main{
      
       
       height: max-content;
       text-align: center;
-
+      justify-content: space-between;
       display: flex;
       
      
   }
 
   .cadastro{
+        
+        width: 100%;
         position: relative;
         margin-top: 2rem;
         flex-direction: column;
         display: flex;
+        
+        
         
         
   }
@@ -32,6 +40,7 @@
     font-weight: bolder;
   }
   form{ 
+    
     
     display: flex;
     flex-direction: column;
@@ -45,7 +54,10 @@
   }
   
   .form{
-      width: 50rem;
+    margin: auto;
+    max-width: 100%;
+    
+     padding: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,6 +66,12 @@
    
 
    }
+.form>h1{
+  font-size: 2.5em;
+  color: #3d3d3d;
+  font-family:'Monserrat';
+}
+
 
 .lateral{
   display: flex;
@@ -69,8 +87,9 @@
 .input{
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   text-align: left;
+  
   
   
 }
@@ -78,15 +97,12 @@
 
 
 
-      form h1{
-        text-align: center;
-      }
+   
 
       .input input{
        
        padding: 0.5rem;
-       
-        width: 30rem;
+        
        border: none;
        border-bottom: 2px solid #3d3d3d;
        margin-bottom: 2rem;
@@ -268,4 +284,11 @@
             flex-direction: column;
             
           }
+        }
+        @media(max-width: 700px){
+
+          main{
+            padding-top: 4rem;
+          }
+
         }
