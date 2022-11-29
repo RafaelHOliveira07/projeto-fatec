@@ -113,8 +113,8 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: center;
-  align-items: center;
-  gap: 10rem;
+    align-items: center;
+     gap: 10rem;
   
   
  
@@ -128,7 +128,9 @@ form{
     row-gap: 1rem;
 }
 
-
+#titulo{
+    font-size: 3rem;
+}
 
 
 .campo
