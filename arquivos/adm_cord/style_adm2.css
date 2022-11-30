@@ -104,19 +104,42 @@ row-gap: 2rem;
 main h1,p{
   color: white;
 }
-.img{
-  
-  
+
+
+form{
   display: flex;
- 
-  background-size: cover;
-
- 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
 }
-.img img{
-  max-width: 100%;
-  
-  top: 0;
-  right: 0;
+span{
+    color: white;
 }
 
+#adicionar{
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+}
+
+#adicionar:hover{
+    background-color: rgb(201, 8, 8);
+    color: white;
+}
+
+#desc{
+    display: flex;
+ 
+    width: 15rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    
+}
+#dsc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    text-align: left;
+}
