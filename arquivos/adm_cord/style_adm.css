@@ -63,9 +63,9 @@ body,.sec_0adm{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 15.5rem;
+    width: 20rem;
     height: 27.5rem;
-    background: #383838;
+    background-color: #3d3d3d;
     box-shadow: 6px 6px 24px 0px rgba(0, 0, 0, 0.418);
     border-radius: 15px;
     border: 2px solid rgb(53, 52, 52);;
@@ -74,29 +74,31 @@ body,.sec_0adm{
 }
 
 #centro>h2{
-    
+    position: absolute;
+    top: 0rem;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     width: 100%;
-    padding: 1.11rem;
+    padding: 1rem 0;
     font-variant: small-caps;
     border-bottom: 2px solid rgb(148, 7, 7);
     border-radius: 15px 15px 0px 0px ;
-    background-color: #242227
+    background-color: #1d1d1d;
     
     
   
     
 }
 
-
-
+form{
+    margin-top: 6rem;
+}
 
 form>label{
     
-    margin-top: 30px;
+    
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -117,6 +119,7 @@ form>label>input{
     width: 200px;
     border-bottom:rgb(182, 1, 1) 2px solid ;
     background-color: #242227a9;  
+    color: #FFF;
 }
 
 
@@ -138,7 +141,7 @@ form>label>input{
 
 
 ::-webkit-input-placeholder  {
-    color: #ffffff; 
+    
     font-style: italic;
    
 }

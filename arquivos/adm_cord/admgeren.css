@@ -1,0 +1,76 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+
+
+thead{
+    
+    
+    
+    color: #fff;
+    
+    border-radius: 2rem 0rem 2rem 0rem;
+}
+tfoot{
+    background-color: #1d1d1d;
+}
+th{
+    padding: 2rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+    background-color: #1d1d1d;
+    
+}
+
+table{
+   padding: 0;
+   
+    color: #fff;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.308);
+    
+}
+#last{
+    border-radius: 0rem 0rem 0rem 2rem;
+}
+#last2{
+    border-radius: 0rem 0rem 2rem 0rem;
+}
+
+td{ 
+    background-color: #3d3d3d;
+    font-weight: bolder;
+  
+   padding: 20px; 
+   margin: 0;
+  
+}
+
+ input{
+    margin:0rem 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
+ a>input:hover{
+    background-color: rgb(150, 13, 13);
+    
+    border: 1px solid #fff;
+    
+}
+
+#search{
+    margin-top: 20px;
+}
+#botapes:hover{
+    background-color: rgb(150, 13, 13);
+    
+    border: 1px solid #fff;
+    
+}
