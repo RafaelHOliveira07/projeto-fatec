@@ -96,3 +96,14 @@ button{
 button:hover{
     background: rgb(173, 6, 6);
 }
+
+#cord{
+    height: 30rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.def{
+    padding: 0.4rem 1rem;
+    
+}
