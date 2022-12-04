@@ -18,7 +18,8 @@ tfoot{
     background-color: #1d1d1d;
 }
 th{
-    padding: 2rem;
+
+    padding: 3rem;
     border-radius: 2rem 2rem 0rem 0rem;
     background-color: #1d1d1d;
     
@@ -43,7 +44,7 @@ table{
 td{ 
     background-color: #3d3d3d;
     font-weight: bolder;
-  
+    text-align: left;
    padding: 20px; 
    margin: 0;
   

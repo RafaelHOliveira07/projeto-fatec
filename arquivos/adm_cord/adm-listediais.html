@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
   <link rel="stylesheet" href="style_adm1.css">
-    <title>Adm - Inicio</title>
+  <link rel="stylesheet" href="style_adm2.css">
+  <link rel="stylesheet" href="style_adm3.css">
+    <title>Adm - Editar Editais</title>
 </head>
 <body>
-   
     <header>
         <h2>Area Administrativa</h2>
      </header>
+    <body>
    
         <section class="posi">
             <section class="menu_adm">
@@ -29,10 +31,60 @@
     
             </section>
             <main>
-        </main>
+                <section class="fundo">
+                    <h1>Editar edital</h1>
+                    <div class="campos">
+                        <form action="">
+                            <div class="inputs">
+                                <span>Nova sigla do curso relacionado ao edital:
+                                <input type="text" placeholder="ABC"></span>
+                            </div>
+                            <div class="inputs">
+                                <span>Insira uma nova Disciplina correspondente ao edital: 
+                                <input type="text" value="" placeholder="Disciplina"></span>
+                            </div>
+                            <div class="inputs">
+                                <span>Insira uma nova área correspodente a este curso e Disciplina:
+                                <input type="text" value="" placeholder="área"></span>
+                            </div>
+                            <div class="inputs" id="date">
+                               
+                                <label for="">Horario de Inicio:</label>
+                                <input type="time" value="" placeholder="">
+                                <label for="">Horario de Saida:</label>
+                                <input type="time" value="" placeholder="horario de saida">
+                                <label for="">Dia da semana:
+                                <input type="text" placeholder="Dia da semana" list="faixa"></label>
+                                <datalist id="faixa">
+                                  <option value="Segunda-feira"></option>
+                                  <option value="Terça-feira"></option>
+                                  <option value="Quarta-feira"></option>
+                                  <option value="Quinta-feira"></option>
+                                  <option value="Sexta-feira"></option>
+                                  <option value="Sabado"></option>
+                                </datalist>
+                                <label for="">Numero do edital:
+                                <input type="text" placeholder="Número do edital"></label>
+                                <label for="">Selecionar novo documento do edital(PDF)</label>
+                                <div class='input-wrapper'>
+                                <label for='input-file'>
+                                  Selecionar PDF
+                                <input id='input-file' type='file' value='' />
+                                <span id='file-name'></span></label>
+                            </div>
+                            <div class="save">
+                                <input type="button" class="botao" id="salvar" value="Confirmar">
+                            </div>
+                         </div>   
+                            
+                            
+                        </form>
+                    </div>
+                </section>
+            </main>
     </section>
 
 <footer>
-
+    <script type="text/javascript" src="js/Nav.js"></script>
 </body>
 </html>
