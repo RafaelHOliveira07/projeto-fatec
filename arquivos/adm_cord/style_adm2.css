@@ -11,7 +11,10 @@
   margin-bottom: 2rem;
 }
 
-
+span ,label{
+  font-weight: bolder;
+  font-size: small;
+}
 main{
   padding: 0 1rem;
   display: flex;

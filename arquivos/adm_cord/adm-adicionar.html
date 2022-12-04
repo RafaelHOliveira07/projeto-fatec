@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
   <link rel="stylesheet" href="style_adm1.css">
+  <link rel="stylesheet" href="style_adm2.css">
+  <link rel="stylesheet" href="style_adm3.css">
     <title>Adm - Adicionar Editais</title>
 </head>
 <body>
@@ -29,7 +31,52 @@
     
             </section>
             <main>
-        </main>
+                <section class="fundo">
+                    <h1>Adicionar edital</h1>
+                    <div class="campos">
+                        <form action="">
+                            <div class="inputs">
+                                <span>Sigla do curso relacionado ao edital:</span>
+                                <input type="text" placeholder="ABC">
+                            </div>
+                            <div class="inputs">
+                                <span>Insira a Disicplina correspodente ao edital:</span> 
+                                <input type="text" value="" placeholder="Disicplina">
+                            </div>
+                            <div class="inputs">
+                                <span>Insira a área correspodente a este curso e Disicplina:</span> 
+                                <input type="text" value="" placeholder="área">
+                            </div>
+                            <div class="inputs" id="date">
+                                <span>Insira o horario e os dias das aulas desta diciplina:</span> 
+                                <label for="">Horario de Inicio:
+                                <input type="time" value="" placeholder=""></label>
+                                <label for="">Horario de Saida:
+                                <input type="time" value="" placeholder="horario de saida"></label>
+                                <label for="">Dia da semana:
+                                <input type="text" placeholder="Dia da semana" list="faixa"></label>
+                                <datalist id="faixa">
+                                  
+                                  <option value="Segunda-feira"></option>
+                                  <option value="Terça-feira"></option>
+                                  <option value="Quarta-feira"></option>
+                                  <option value="Quinta-feira"></option>
+                                  <option value="Sexta-feira"></option>
+                                  <option value="Sabado"></option>
+                                </datalist>
+                                <label for="">Numero do edital:
+                                <input type="text" placeholder="Número do edital"></label>
+
+                                <label for="">Selecionar o documento do edital(PDF)
+                                <input type="file" name="" id=""></label>
+                                
+                            </div>
+                           
+                       
+                        </form>
+                    </div>
+                </section>
+            </main>
     </section>
 
 <footer>

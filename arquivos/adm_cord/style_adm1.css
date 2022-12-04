@@ -67,9 +67,16 @@ main{
   padding: 2rem;
      border-radius: 0rem 2rem 2rem 0rem;
     background-color:#333333;
-    
     margin: left;
     display: flex; 
+    padding: 0 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 
@@ -112,16 +119,7 @@ main{
 
 }
 
-main{
-  padding: 0 1rem;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-flex-direction: column;
-row-gap: 2rem;
-}
+
 
 main h1,p{
   color: white;

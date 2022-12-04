@@ -1,0 +1,16 @@
+#date{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    color: #fff;
+   
+    align-items: center;
+} 
+
+#date input{
+    width: 200px;
+}
+span ,label{
+    font-weight: bolder;
+    font-size: smaller;
+}

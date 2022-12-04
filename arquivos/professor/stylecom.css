@@ -53,6 +53,10 @@ main{
     
 
 }
+
+#salvar{
+    padding: 0.5rem;
+}
 .enca {
     display: flex;
     border: 1px inset rgba(121, 121, 121, 0.568);
@@ -72,7 +76,7 @@ main{
     border-radius: 10px;
     transition: 0.4s;
     z-index: 1;
-    padding:0.5rem 1rem;
+    
     font-weight: bolder;
     font-size: 1em;
     letter-spacing: 0.01em;
