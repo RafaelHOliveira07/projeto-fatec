@@ -1,10 +1,6 @@
 
 .fundo{ 
-  background-color: #3d3d3d;
-  padding: 2rem;
-  border-radius: 2rem;
-  max-width: 40rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+
 }
 .fundo> h1 {
   font-size: 2em;
@@ -15,16 +11,7 @@ span ,label{
   font-weight: bolder;
   font-size: small;
 }
-main{
-  padding: 0 1rem;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-flex-direction: column;
-row-gap: 2rem;
-}
+
 
 main h1,p{
   color: white;
@@ -48,7 +35,7 @@ span{
 }
 
 #adicionar:hover{
-    background-color: rgb(201, 8, 8);
+    background-color: #880d0d;
     color: white;
 }
 
@@ -67,4 +54,10 @@ span{
     align-items: center;
     row-gap: 1rem;
     text-align: left;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }

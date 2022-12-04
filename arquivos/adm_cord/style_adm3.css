@@ -1,16 +1,70 @@
 #date{
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 1rem;
     color: #fff;
    
     align-items: center;
 } 
 
-#date input{
-    width: 200px;
-}
-span ,label{
+
+
+#adicionar{
     font-weight: bolder;
-    font-size: smaller;
+}
+
+input{
+    background-color: #292929;
+    padding: 0.1rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+input[type='file'] {
+    display: none
+  }
+  
+  .input-wrapper label {
+    background-color: #777777;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #fff;
+    margin: 10px;
+    transition: 0.4s;
+    
+  }
+  
+  .input-wrapper label:hover {
+    background-color: #880d0d;
+    
+    
+  }
+  #file-name{
+    font-size: small;
+    font-weight: bold;
+  }
+  main{
+    padding:  1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+  }
+  /* Aparência que terá o seletor de arquivo */
+
+#salvar{
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 100px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+#salvar:hover{
+
+  background-color: #880d0d;
+  
 }

@@ -64,13 +64,11 @@ body{
   }
 
 main{  
-  padding: 2rem;
+ 
      border-radius: 0rem 2rem 2rem 0rem;
     background-color:#333333;
-    margin: left;
     display: flex; 
     padding: 0 1rem;
-    display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;

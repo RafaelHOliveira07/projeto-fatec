@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
   <link rel="stylesheet" href="style_adm2.css">
   <link rel="stylesheet" href="style_adm1.css">
+  <link rel="stylesheet" href="style_adm3.css">
     <title>Adm - Adicionar Cursos</title>
 </head>
 <body>
@@ -39,29 +40,39 @@
                             <form action="">  
                                 <div class="inputs">
                                     <span>Insira a imagem de fundo relacionada ao Curso:</span>
-                                    <input type="button" value="Buscar imagem" ser>
+                                    <div class='input-wrapper'>
+                                        <label for='input-file'>
+                                          Selecionar um arquivo
+                                        </label>
+                                        <input id='input-file' type='file' value='' />
+                                        <span id='file-name'></span>
+                                    </div>
+                                </div>
+                                <div class="inputs">
+                                    <span>Insira o Nome correspodente ao Curso:</span> 
+                                    <input type="text" value="" placeholder="EX:Gestão Empresarial">
                                 </div>
                                 <div class="inputs">
                                     <span>Insira a sigla correspodente ao Curso:</span> 
-                                    <input type="text" value="" placeholder="ABC">
-                                </div>
-                                <div class="inputs">
-                                    <span>Insira o titulo do Curso:</span> 
                                 
-                                    <input type="text" value="" placeholder="EX:Gestão Empresarial">
+                                    <input type="text" value="" placeholder="EX:ABC">
                                 </div>
                                 <div class="inputs" id="dsc">
                                     <span>Insira uma breve descrição sobre o Curso:</span> 
                                 
                                 <textarea name="" id="" cols="40" rows="5"></textarea>
                                 </div>
-                                    <input type="button" id="adicionar" value="Adicionar">
+                                    
+                                <div class="save">
+                                    <input type="button" class="botao" id="salvar" value="Confirmar">
+                                </div>
+                             </div>  
                             </form> 
                         </div>
                  </section>
         </main>
     </section>
-
+    <script type="text/javascript" src="js/Nav.js"></script>
 
 
 </body>

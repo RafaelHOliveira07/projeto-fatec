@@ -57,6 +57,27 @@ main{
 #salvar{
     padding: 0.5rem;
 }
+input[type='file'] {
+    display: none
+  }
+  
+  .input-wrapper label {
+    background-color: #303030;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    padding: 6px 20px;
+    transition: 0.5s;
+  }
+  
+  .input-wrapper label:hover {
+    background-color: #bd0000
+  }
+
+  .span{
+    font-size: small;
+    font-weight: bold;
+  }
 .enca {
     display: flex;
     border: 1px inset rgba(121, 121, 121, 0.568);
@@ -109,7 +130,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  row-gap: 3rem;
+    row-gap: 3rem;
   
 }
 form{
@@ -118,6 +139,7 @@ form{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+     row-gap: 2rem;
      gap: 10rem;
   
   
@@ -190,6 +212,7 @@ p{
     form{
         display: flex;
         flex-direction: column;
+        gap: 2rem;
     }
 }
 @media (max-width: 700px ) {
