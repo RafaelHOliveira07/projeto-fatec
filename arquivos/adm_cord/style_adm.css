@@ -118,7 +118,7 @@ form>label>input{
     border: none;
     width: 200px;
     border-bottom:rgb(182, 1, 1) 2px solid ;
-    background-color: #242227a9;  
+    background-color: #1d1d1d;
     color: #FFF;
 }
 
@@ -242,7 +242,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 5px;
-background: #242227;
+background-color: #1d1d1d;
 box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.199);
 overflow: hidden;
 border: none;
@@ -282,6 +282,7 @@ button span {
     z-index: 20;
     transition: all 0.3s ease-in-out;
     font-family:Arial, Helvetica, sans-serif ;
+    background-color: #1d1d1d;
    }
    
    button:hover span {

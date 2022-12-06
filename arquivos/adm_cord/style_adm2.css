@@ -30,6 +30,7 @@ span{
 #adicionar{
     padding: 0.3rem 1rem;
     border-radius: 10px;
+    background-color: #1d1d1d;
 }
 
 #adicionar:hover{
@@ -58,4 +59,5 @@ span{
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+  
 }

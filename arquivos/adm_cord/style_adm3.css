@@ -14,7 +14,7 @@
 }
 
 input{
-    background-color: #292929;
+  background-color: #1d1d1d;
     padding: 0.1rem;
     border-radius: 10px;
     color: rgb(255, 255, 255);
@@ -63,6 +63,7 @@ input[type='file'] {
   transition: 0.4s;
   border-color: #fff;
   border: 1px solid;
+  background-color: #1d1d1d;
 }
 
 #salvar:hover{
