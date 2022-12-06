@@ -119,12 +119,12 @@
   
   box-sizing: border-box;
   display: flex;
-  height: 7.6rem;
+  height: 7.8rem;
   flex-direction: column;
   width: 100%;
   text-align: left;
   background-color: #1d1d1d;
-  row-gap: 0.5rem;
+  row-gap: 0.4rem;
   padding: 0.8rem;
   border-radius:0 0 0.9rem 0.9rem;
 
@@ -140,11 +140,11 @@
 .textc p{
   color: #ffff;
   font-weight: bolder;
-  
+  font-size: smaller;
   border-radius: 0rem 0rem 1rem 1rem;
   height: max-content;
+  margin-bottom: 2px;
  
-  font-size: small;
 }
 
 .second{
@@ -174,8 +174,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-
 }
 
 
