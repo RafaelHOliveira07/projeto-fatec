@@ -1,0 +1,128 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+    transition: 0.4s;
+  }
+
+
+  body{
+    height: 100vh;
+    width: 100vw;
+    
+  }
+
+.posi1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: initial;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  
+
+
+thead{
+    
+    
+   
+    color: #fff;
+
+    border-radius: 2rem 0rem 2rem 0rem;
+}
+tfoot{
+    background-color: #1d1d1d;
+}
+th{
+
+    padding: 3rem;
+  
+    background-color: #1d1d1d;
+    
+}
+
+
+ table{
+  
+  
+    color: #fff;
+    text-align: center;
+    
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.308);
+    
+}
+
+
+td{ 
+    background-color: #3d3d3d;
+    font-weight: bolder;
+    text-align: left;
+   padding: 20px; 
+   margin: 0;
+  
+}
+
+ input{
+    margin:0rem 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
+ a>input:hover{
+    background-color: rgb(150, 13, 13);
+    
+    border: 1px solid #fff;
+    
+}
+
+#search{
+    margin-top: 20px;
+}
+#botapes:hover{
+    background-color: rgb(150, 13, 13);
+    
+    border: 1px solid #fff;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: white;
+    width: 45px;
+    border-radius: 5rem;
+    transition: 0.4s;
+    font-weight: bolder;
+    border-color: white;
+    border: 1px solid;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background: rgb(173, 6, 6);
+}
+
+#cord{
+    height: 30rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.def{
+    padding: 0.4rem 1rem;
+    
+}

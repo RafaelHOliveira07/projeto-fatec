@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
     <title>Recupere sua senha</title>
     <link rel="shortcut icon" href="img/books_14151.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style4.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
 </head>
@@ -18,6 +18,7 @@
         <div id="titu">
             <h1><a href="inico-prof.html" id="titulo">PORTAL DE EDITAIS <br> <span>FATEC ITAPIRA</span></a></h1>
         </div>
+
 
         <div id="fate"> 
            <img src="img/logo-cps-braso.png" alt="logoetec" class="img">
@@ -31,28 +32,30 @@
         </button>
         <ul id="menu" role="menu">
             <li><a href="inico-prof.html" class="menu_link">Home</a></li>
-            <li><a href=""class="menu_link">Cursos</a></li>
-            <li><a href="duvidas.'html"class="menu_link">Duvidas</a></li>
+            <li><a href="inico-prof.html#gpi"class="menu_link">Cursos</a></li>
+            <li><a href="duvidas.html"class="menu_link">Duvidas</a></li>
             <li><a href="sobre.html"class="menu_link" id="last">Sobre</a></li>
             
           </ul>
       
-          
+          <div class="login">
+                    <div id="perf">
+                        <span class="material-symbols-outlined" id="simbol">account_circle</span>
+                        <a href="perfil_professor.html" id="perfil">Login</a>
+                    </div>
+            </div>
     </nav>
  
 
     <main>
         <div class="rec">
            
-            
           <form action=""> 
-            <div id="h1-rec">
             <h1>Recupere sua senha</h1>
-            </div>
-            <div id="input">
-            <input type="password" placeholder="digite sua nova senha" id="senha">
-            <input type="password" placeholder="comfirme sua nova senha" id="senha">
-        </div>
+            
+            <label for="email">Insira o e-mail com qual você se cadastrou</label>
+            <input type="email" placeholder="digite seu email" id="email">
+
             <div id="botoes">
                 <button class="botao" type="submit" name="" id="submit" value="Comfirmar">
                 <span class="button">Confirmar</span></button>
@@ -99,6 +102,8 @@
                     </div>
                 </div>
             </div>
+
+   
 
    
 </footer>

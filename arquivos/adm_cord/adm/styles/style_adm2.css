@@ -1,0 +1,58 @@
+
+main>.fundo> h1 {
+  font-size: 2em;
+  margin-bottom: 2rem;
+  
+
+}
+
+span ,label{
+  font-weight: bolder;
+  font-size: small;
+}
+
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+#adicionar{
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+}
+
+#adicionar:hover{
+    background-color: #be0000;
+    
+}
+
+#desc{
+    display: flex;
+ 
+    width: 15rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    
+}
+#dsc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    text-align: left;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  
+}

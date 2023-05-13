@@ -1,0 +1,40 @@
+main{
+    
+    height: 30rem;
+}
+
+h3,h2{
+    color:#fff ;
+}
+
+#h3{
+    max-width: 30rem;
+    
+}
+
+h1{
+    font-size: 2rem;
+    margin-top: 1rem
+}
+
+input{
+    
+    color: white;
+    
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    transition: 0.4s;
+    border-color: #fff ;
+    border: 1px solid;
+    font-weight: bolder;
+    background-color: #1d1d1d;
+}
+input:hover{
+    background: rgb(161, 7, 7);
+}
+
+
+textarea{
+    font-size: medium;
+    padding: 5px;
+}
