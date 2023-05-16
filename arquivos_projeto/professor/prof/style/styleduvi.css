@@ -5,7 +5,7 @@
   }
   @font-face {
     font-family:'Monserrat';
-    src: url(fonts/static/Montserrat-Medium.ttf);
+    src: url(../fonts/static/Montserrat-Medium.ttf);
     font-weight: normal;
 }
 body{
@@ -32,7 +32,7 @@ body{
 
 
   .img-duv{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(img/man-5723449_1920.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../img/man-5723449_1920.jpg);
    background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;

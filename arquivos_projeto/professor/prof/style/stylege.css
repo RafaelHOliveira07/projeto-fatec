@@ -19,7 +19,7 @@ body{
   .img-ge{
     
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.548)) , url(img/teamwork-3213924.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.548)) , url(../img/teamwork-3213924.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;

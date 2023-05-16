@@ -21,7 +21,7 @@
   .img-dsm{
     
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.432)) , url(img/code-1839406.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.432)) , url(../img/code-1839406.jpg);
     
     background-size: cover;
     width: 100%;

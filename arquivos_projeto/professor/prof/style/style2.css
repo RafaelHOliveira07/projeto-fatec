@@ -34,7 +34,7 @@
   .img-inicio{
     
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.568)) , url(img/wepik-photo-mode-20221016-232549.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.568)) , url(../img/wepik-photo-mode-20221016-232549.png);
 
     background-size: cover;
     width: 100%;

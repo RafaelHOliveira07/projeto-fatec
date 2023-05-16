@@ -16,14 +16,14 @@ body{
 
   @font-face {
     font-family:'Monserrat';
-    src: url(fonts/static/Montserrat-Medium.ttf);
+    src: url(../fonts/static/Montserrat-Medium.ttf);
     font-weight: normal;
 }
 
   .img-gpi{
     
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.548)) , url(img/manager-supervisor-and-worker-discussing-about-production-results-and-new-strategy-in-factory-industrial-hall\ \(1\).jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.548)) , url(../img/manager-supervisor-and-worker-discussing-about-production-results-and-new-strategy-in-factory-industrial-hall\ \(1\).jpg);
     background-position: center;
     background-size: cover;
     width: 100%;

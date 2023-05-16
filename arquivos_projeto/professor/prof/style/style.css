@@ -7,12 +7,12 @@
 
 @font-face {
     font-family:'Growland Bold';
-    src: url(fonts/Growland\ Bold.otf);
+    src: url(../fonts/Growland\ Bold.otf);
     font-weight: normal;
 }
 @font-face {
   font-family:'Monserrat';
-  src: url(fonts/static/Montserrat-Medium.ttf);
+  src: url(../fonts/static/Montserrat-Medium.ttf);
   font-weight: normal;
 }
 

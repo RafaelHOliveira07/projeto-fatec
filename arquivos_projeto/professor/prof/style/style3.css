@@ -6,7 +6,7 @@
 
   @font-face {
     font-family:'Monserrat';
-    src: url(fonts/static/Montserrat-Medium.ttf);
+    src: url(../fonts/static/Montserrat-Medium.ttf);
     font-weight: normal;
 }
 body{
