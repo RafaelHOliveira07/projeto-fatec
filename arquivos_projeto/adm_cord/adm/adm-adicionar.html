@@ -50,24 +50,25 @@
                             </div>
                             <div class="inputs" id="date">
                                
-                                <label for="">Horario das aulas do curso:</label>
-                                <select name="horario" id="">
-                                <option value="Escolha uma opção:">--Escolha uma opção--</option>
-                                <option value="das 19:30 as 22:30"> 19:30 as 22:30 </option>
-                                <option value="7:40 as 11:00"> 7:40 as 11:00 </option>
-                                </select>
-                               
-                                <label for="">Dia da semana:
-                                <input type="text" placeholder="Dia da semana" list="faixa"></label>
-                                <datalist id="faixa">
-                                    
-                                  <option value="Segunda-feira"></option>
-                                  <option value="Terça-feira"></option>
-                                  <option value="Quarta-feira"></option>
-                                  <option value="Quinta-feira"></option>
-                                  <option value="Sexta-feira"></option>
-                                  <option value="Sabado"></option>
+                             
+               
+                                <label for="">Dia da semana/Horario das aulas:</label>
+                                <input type="text" value="" placeholder="Escolha um horario:" list="horario">
+                                <datalist id="horario">
+                                    <option value="Segunda-feira das 19:30 as 22:30 "></option>
+                                    <option value="Segunda-feira das 19:30 as 21:00"></option>
+                                    <option value="Segunda-feira das 21:00 as 22:30"></option>
+                                    <option value="Terça-feira das 19:30 as 22:30 "></option>
+                                    <option value="Terça-feira das 19:30 as 21:00"></option>
+                                    <option value="Terça-feira das 21:00 as 22:30"></option>
+                                    <option value="Quarta-feira das 19:30 as 22:30 "></option>
+                                    <option value="Quarta-feira das 19:30 as 21:00"></option>
+                                    <option value="Quarta-feira das 21:00 as 22:30"></option>
+                                    <option value="Sabado das 07:40 as 11:00"></option>
+                                
                                 </datalist>
+                                 
+                               
                                 <label for="">Numero do edital:
                                 <input type="text" placeholder="Número do edital"></label>
                                 <label for="">Selecionar o documento do edital(PDF)</label>

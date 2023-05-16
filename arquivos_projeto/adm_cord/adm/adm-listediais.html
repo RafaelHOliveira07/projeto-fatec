@@ -50,10 +50,17 @@
                             </div>
                             <div class="inputs" id="date">
                                
-                                <label for="">Horario de Inicio:</label>
-                                <input type="time" value="" placeholder="">
-                                <label for="">Horario de Saida:</label>
-                                <input type="time" value="" placeholder="horario de saida">
+                                <label for="">Horario de Inicio/Termino:</label>
+                                <input type="time" value="" placeholder="" list="horario">
+                                <datalist id="horario">
+                                    <option value="19:30 As 22:30"></option>
+                                    <option value="19:30 As 21:00"></option>
+                                    <option value="21:00 As 22:30"></option>
+                                    <option value="07:40 As 11:00"></option>
+                                
+                                </datalist>
+
+
                                 <label for="">Dia da semana:
                                 <input type="text" placeholder="Dia da semana" list="faixa"></label>
                                 <datalist id="faixa">
