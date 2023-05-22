@@ -1,3 +1,13 @@
+<?php
+
+require_once "classes/Curso.php";
+
+$id = $_GET['id'];
+
+$curso = new Curso($id);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,29 +29,29 @@
 </div>
     <section class="posi">
             <section class="menu_adm">
-             <ul>   
-                <li><a href="adm-inicio.html">Inicio</a></li>
-                <li><h2>Cursos</h2></li>
-                <li><a href="adm-addcursos.php">Adicionar Curso</a></li>
-                <li><a href="adm-gerenciar-cursos.php">Gerenciar cursos</a></li>
-                <li><h2>Editais</h2></li>
-                <li><a href="adm-adicionar.php">Adicionar Editais</a></li>
-                <li><a href="adm-geren-editais.php">Gerenciar Editais</a></li>
-               <li><h2>Participantes</h2></li> 
-                <li><a href="adm-part.php">Lista de Participantes</a></li>
-            </ul>
-            
+                <ul>
+                    <li><a href="adm-inicio.html">Inicio</a></li>
+                    <li><h2>Cursos</h2></li>
+                    <li><a href="adm-addcursos.html">Adicionar Curso</a></li>
+                    <li><a href="adm-gerenciar-cursos.html">Gerenciar cursos</a></li>
+                    <li><h2>Editais</h2></li>
+                    <li><a href="adm-adicionar.html">Adicionar Editais</a></li>
+                    <li><a href="adm-geren-editais.html">Gerenciar Editais</a></li>
+                   <li><h2>Participantes</h2></li> 
+                    <li><a href="adm-part.html">Lista de Participantes</a></li>
+                </ul>
     
             </section>
         
             <main>
                 <section class="fundo"> 
-                            <h1>Adicionar Novo Curso:</h1>
+                            <h1>Editar Curso:</h1>
                         <div class="campos">
                         
-                            <form action="../adm/cursos-gravar.php" method="post">  
+                            <form action="../adm/cursos-editar-gravar.php" method="post">  
+                                <input type="hidden" name="curso_id" value="<?= $curso->curso_id ?>">
                                 <div class="inputs">
-                                    <span>Insira a imagem de fundo relacionada ao Curso:</span>
+                                    <span>Imagem de fundo relacionada ao Curso:</span>
                                     <div class='input-wrapper'>
                                         <label for='input-file'>
                                           Selecionar um arquivo
@@ -51,18 +61,18 @@
                                     </div>
                                 </div>
                                 <div class="inputs">
-                                    <span>Insira o Nome correspodente ao Curso:</span> 
-                                    <input type="text" name="nome_curso" placeholder="EX:Gestão Empresarial">
+                                    <span>Nome correspodente ao Curso:</span> 
+                                    <input type="text" name="nome_curso" value="<?= $curso->nome_curso ?>">
                                 </div>
                                 <div class="inputs">
-                                    <span>Insira a sigla correspodente ao Curso:</span> 
+                                    <span>Sigla correspodente ao Curso:</span> 
                                 
-                                    <input type="text" name="sigla_curso" placeholder="EX:ABC">
+                                    <input type="text" name="sigla_curso" value="<?= $curso->sigla_curso ?>">
                                 </div>
                                 <div class="inputs" id="dsc">
-                                    <span>Insira uma breve descrição sobre o Curso:</span> 
+                                    <span>Breve descrição sobre o Curso:</span> 
                                 
-                                <textarea name="desc_curso" cols="40" rows="5"></textarea>
+                                <textarea name="desc_curso" cols="40" rows="5"><?= $curso->desc_curso ?></textarea>
                                 </div>
                                     
                                 <div class="save">

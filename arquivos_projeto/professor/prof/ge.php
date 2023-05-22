@@ -1,13 +1,23 @@
+<?php
+
+require_once "classes/Edital.php";
+
+$edital = new Edital();
+
+$lista = $edital->listarge();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
-    <title>Inicio</title>
+    <title>Editais - GE</title>
     <link rel="shortcut icon" href="img/books_14151.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/stylege.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
 </head>
@@ -40,92 +50,49 @@
               <div class="login">
                         <div id="perf">
                             <span class="material-symbols-outlined" id="simbol">account_circle</span>
-                            <a href="prof-login.html" id="perfil">login</a>
+                            <a href="perfil_professor.html" id="perfil">Perfil do Candidato</a>
                         </div>
-              
-               
-                    <div id="perf">
-                        <span class="material-symbols-outlined" id="simbol">account_circle</span>
-                        <a href="professor-cadas.html" id="perfil">cadastre-se</a>
-                    </div>
-            </div>
+                </div>
         </nav>
      
 
-           <section class="img-inicio">
-              
-            <div class="sec0" id="text01">
-                <ul>
-                <li><h1> Seja bem vindo</h1></li>
-                <li><p> ao portal de editais da <a href=""> Fatec Itapira</a></p></li>
-              </ul>
-            </div>
-                   
-                
-             
-           
-           </section> 
-           <div id="para">
-                
-            </div>
-       
-         <div id="h3"><h2>Cursos Disponiveis</h2> </div>
-
- 
-        <section class="cursos">
-
-            <div class="cursobox reveal" id="gpi">
-                <div class="textc">
-                    <h3>GPI - Gestão da Produção Industrial</h3>
-                    <p>Organizações industriais, com a busca da melhoria da qualidade e produtividade industrial.</p>
-                </div>
-                <div class="second">
-                    <p>Acesse os editais desse curso 
-                        <a href="gpi.php">clicando aqui</a></p>
-                </div>
-            </div>
-
-            <div class="cursobox reveal" id="ge">
-                <div class="textc">
-                    <h3>GE - Gestão Empresarial</h3>
-
-                    <p>Planeja atividades e recursos, na organização do trabalho e na gestão de pessoas.</p>
-                </div>
-                <div class="second">
-                    <p>Acesse os editais desse curso 
-                        <a href="ge.php">clicando aqui</a></p>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="cursos">
-
-            <div class="cursobox reveal" id="dsm">
-                <div class="textc">
-                    <h3>DSM - Desenvolvimento de Software Multiplataforma</h3>
-                    
-                   <p>O profissional pode projetar, desenvolver e testar softwares para múltiplas plataformas, aplicações em nuvem e internet das coisas.</p> 
-                </div>
-                <div class="second">
-                    <p>Acesse os editais desse curso 
-                        <a href="dms.php">clicando aqui</a></p>
-                </div>
-            </div>
-            <div class="cursobox reveal" id="gti">
-                <div class="textc">
-                    <h3>GTI - Gestão da Tecnologia da Informação</h3>
-                    <p>Segmento da área de informática que abrange a administração dos recursos de infra-estrutura física e lógica dos ambientes informatizados.</p>
-                </div>
-                <div class="second">
-
-                    <p>Acesse os editais desse curso 
-                        <a href="gti.php">clicando aqui</a></p>
-                    
-            </div>
-
-        </section>
-
+      
+            <section class="img-ge">
+                <h1>Editais - GE</h1>
+                    </section>
+                    <div class="faixa">
+                        <p>Confira abaixo os Editais disponiveis para curso GE</p>
+                    </div>
+               
+                    <main>
+                        <?php foreach ($lista as $linha): ?>
+                        <section class="editais-dsm">
+                        <div class="edital reveal" >
+                                
+                                <ul class="info">
+                                    <li><span>Edital - <?php echo $linha['sigla_curso'] ?></span></li>
+                                    <li><span>Disciplina: <?php echo $linha['nome_disci'] ?></span></li> 
+                                    <li><span>Area correspondente: <?php echo $linha['area_disci'] ?></span></li>
+                                </ul>
+                                <div class="posi">
+                                    
+                                <div class="add-info">
+                                        <span>Horario/data das aulas: <br>
+                                        <?php echo $linha['data_hora'] ?></span>
+                                        <span>Número do Edital:<?php echo $linha['num_edital'] ?></span>
+                                    <div class="linkpdf">
+                                      Vizualizar edital:<a href="pdf.php?id=<?= $linha['edital_id'] ?>" target="_blank"><img src="img/icons8-pdf-64.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <a href="confirma.html" id="ins-link"><button><span class="button">Inscrever-se</span></button></a>
+                                </div>
+                                </div>
+                            </div>                    
+                        
+                        </section>
+                    <?php endforeach ?>
+                    </main>  
         
 
 <div id="fundope">
@@ -147,7 +114,7 @@
                 <div id="redes">
                     <div class="links reveal">
                         
-                        <div class="social" >
+                        <div class="social">
                             <a href="https://api.whatsapp.com/send?phone=551938635210&text=" target="_blank"><img src="img/whatsapp.png" alt=""></a>
                         </div>
 

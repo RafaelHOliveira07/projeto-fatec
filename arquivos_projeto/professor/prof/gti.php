@@ -1,13 +1,26 @@
+
+<?php
+
+require_once "classes/Edital.php";
+
+$edital = new Edital();
+
+$lista = $edital->listargti();
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
-    <title>Editais - DSM</title>
+    <title>Editais - GTI</title>
     <link rel="shortcut icon" href="img/books_14151.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/styledsm.css">
+    <link rel="stylesheet" href="style/stylegti.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
 </head>
@@ -33,7 +46,7 @@
             <ul id="menu" role="menu">
                 <li><a href="inico-prof.html" class="menu_link">Home</a></li>
                 <li><a href="inico-prof.html#gpi"class="menu_link">Cursos</a></li>
-                <li><a href="duvidas.'html"class="menu_link">Duvidas</a></li>
+                <li><a href="duvidas.html"class="menu_link">Duvidas</a></li>
                 <li><a href="sobre.html"class="menu_link" id="last">Sobre</a></li>
                 
               </ul>
@@ -45,82 +58,44 @@
                         </div>
                 </div>
         </nav>
-     <section class="img-dsm">
- <h1>Editais - DSM</h1>
-     </section>
-     <div class="faixa">
-         <p>Confira abaixo os Editais disponiveis para curso DSM</p>
-     </div>
+     
 
-        <main>
-            <section class="editais-dsm">
+        <section class="img-gti">
+            <h1>Editais - GTI</h1>
+                </section>
+                <div class="faixa">
+                    <p>Confira abaixo os Editais disponiveis para curso GTI</p>
+                </div>
+           
+                <main>
+                <?php foreach ($lista as $linha): ?>
+                <section class="editais-dsm">
                 <div class="edital reveal" >
                         
                         <ul class="info">
-                            <li><span>Edital - DMS</span></li>
-                            <li><span>Disciplina: Desenvolvimento Web I</span></li> 
-                            <li><span>Area correspondente: Tecnologia da Informação</span></li>
+                            <li><span>Edital - <?php echo $linha['sigla_curso'] ?></span></li>
+                            <li><span>Disciplina: <?php echo $linha['nome_disci'] ?></span></li> 
+                            <li><span>Area correspondente: <?php echo $linha['area_disci'] ?></span></li>
                         </ul>
                         <div class="posi">
                             
                         <div class="add-info">
                                 <span>Horario/data das aulas: <br>
-                                19:00/22:30 as quartas-feiras </span>
-                                <span>Número do Edital:001</span>
+                                <?php echo $linha['data_hora'] ?></span>
+                                <span>Número do Edital:<?php echo $linha['num_edital'] ?></span>
                             <div class="linkpdf">
-                              <a href="down/Curriculo 2021.pdf" target="_blank" download="img-dsm" >Vizualizar edital:</a><img src="img/icons8-pdf-64.png" alt="">
+                              Vizualizar edital:<a href="pdf.php?id=<?= $linha['edital_id'] ?>" target="_blank"><img src="img/icons8-pdf-64.png" alt=""></a>
                             </div>
                         </div>
                         <div class="button">
                             <a href="confirma.html" id="ins-link"><button><span class="button">Inscrever-se</span></button></a>
                         </div>
                         </div>
-                    </div>
-                    
-                <div class="edital reveal">
-                        <ul class="info">
-                            <li><span>Edital - DMS</span></li>
-                            <li><span>Disciplina: Desenvolvimento Web II</span></li> 
-                            <li><span>Area correspondente: Tecnologia da Informação</span></li>
-                        </ul>
-                        <div class="posi">
-                            <div class="add-info">
-                                    <span>Horario/data das aulas: <br>
-                                    19:00/22:30 as quintas-feiras </span>
-                                    <span>Número do Edital:002</span>
-                                <div class="linkpdf">
-                                    <a href="down/Curriculo 2021.pdf" download="img-dsm" target="_blank">Vizualizar edital:</a><img src="img/icons8-pdf-64.png" alt="">
-                                </div>
-                            </div>
-                            <div class="button">
-                                <a href="confirma.html" id="ins-link"><button><span class="button">Inscrever-se</span></button></a>
-                            </div>
-                        </div>
-                </div>
-                    
-                <div class="edital reveal">
-                        <ul class="info">
-                            <li><span>Edital - DMS</span></li>
-                            <li><span>Disciplina: Engenharia de Software</span></li> 
-                            <li><span>Area correspondente: Tecnologia da Informação</span></li>
-                        </ul>
-                        <div class="posi">
-                        <div class="add-info">
-                                <span>Horario/data das aulas: <br>
-                                19:00/22:30 as sexta-feiras </span>
-                                <span>Número do Edital:003</span>
-                            <div class="linkpdf">
-                                <a href="down/Curriculo 2021.pdf" download="img-dsm" target="_blank">Vizualizar edital:</a><img src="img/icons8-pdf-64.png" alt="">
-                            </div>
-
-                        </div>
-                        <div class="button">
-                            <a href="confirma.html" id="ins-link"><button><span class="button">Inscrever-se</span></button></a>
-                        </div>
-                    </div>
-                </div>
+                    </div>                    
+                
                 </section>
-        </main>
+            <?php endforeach ?>
+                </main>  
 
 <div id="fundope">
 </div>  
@@ -137,9 +112,8 @@
                             <li>E-mail: contato@fatecitapira.edu.br</li>
                     </ul>
                 </div>
-
                 <div id="redes">
-                    <div class="links reveal" >
+                    <div class="links reveal">
                         
                         <div class="social">
                             <a href="https://api.whatsapp.com/send?phone=551938635210&text=" target="_blank"><img src="img/whatsapp.png" alt=""></a>
@@ -162,6 +136,7 @@
                     </div>
                 </div>
 
+       
        
     </footer>
     
