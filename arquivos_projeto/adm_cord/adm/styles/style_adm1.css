@@ -29,7 +29,7 @@ header {
   width: 100%;
   padding: 1rem;
 
-  font-size: 0.9rem;
+  
   box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.616);
  
  
@@ -39,7 +39,7 @@ header h2 {
   font-family: 'Monserrat';
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
   padding-left:0.3rem;
- 
+ font-size: 0.9rem;
 }
 
 .posi {
