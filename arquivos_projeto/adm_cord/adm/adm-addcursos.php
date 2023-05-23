@@ -20,7 +20,7 @@
     <section class="posi">
             <section class="menu_adm">
              <ul>   
-                <li><a href="adm-inicio.html">Inicio</a></li>
+                <li><a href="adm-inicio.php">Inicio</a></li>
                 <li><h2>Cursos</h2></li>
                 <li><a href="adm-addcursos.php">Adicionar Curso</a></li>
                 <li><a href="adm-gerenciar-cursos.php">Gerenciar cursos</a></li>
