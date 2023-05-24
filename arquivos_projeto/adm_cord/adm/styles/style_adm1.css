@@ -39,7 +39,7 @@ header h2 {
   font-family: 'Monserrat';
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
   padding-left:0.3rem;
- font-size: 0.9rem;
+ font-size: 1.3rem;
 }
 
 .posi {
@@ -51,11 +51,145 @@ header h2 {
   display: flex;
   flex-direction: row;
 
+}
 
 
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  font-weight: bolder;
+ 
+
+  
+}
+
+
+.input>input{
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+ 
+}
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.form>h1{
+margin-bottom: 4rem;  
+font-size: 2rem;
+text-align: center;
+}
+.formin{
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  margin-left: 5rem;
+  
 
 }
 
+#cara{
+
+  font-size: 0.6rem;
+ 
+}
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  margin-top: 3rem;
+
+}
+.reveal{
+  display: flex;
+  justify-content: center;
+}
+.botao{
+    
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 0.3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background: #535252;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+  overflow: hidden;
+  border: none;
+  
+  cursor: pointer;
+  }
+  .botao::before{
+      content: " ";
+      width: 0%;
+      height: 100%;
+      background: #ca040be5;
+      position: absolute;
+      transition: all 0.6s ease-in-out;
+      right: 0;
+      
+    
+      
+      
+      
+  }
+  .botao:hover::before{
+      right: auto;
+      left: 0;
+      width: 100%;
+     
+  }
+
+  button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  
+    color: #fff;
+    font-size: small;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    z-index: 20;
+    transition: all 0.4s ease-in-out;
+    font-family:Arial, Helvetica, sans-serif ;
+   }
+   
+   button:hover span {
+    color: #ffffff;
+    animation: scaleUp 0.6s ease-in-out;
+   }
+
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.85);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   
+#botoes{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
 .fundo {
   display: flex;
   justify-content: left;
@@ -69,10 +203,6 @@ header h2 {
   background-color: rgb(39, 39, 39);
   height: 100vh;
   
-  
- 
-
-
 
 }
 
@@ -136,6 +266,7 @@ a {
   color: rgb(255, 255, 255);
 
 }
+
 
 
 
