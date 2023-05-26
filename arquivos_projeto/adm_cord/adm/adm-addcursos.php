@@ -13,10 +13,9 @@
 <body>
    
 <body>
-    <header>
-  
-     <h2>  Area Administrativa</h2>
-</header>
+<header>
+      <img src="../img/administracao.png" id="adm" alt="">  <h2>Area Administrativa</h2>
+     </header>
 </div>
 <section class="posi">
     <section class="menu_adm">

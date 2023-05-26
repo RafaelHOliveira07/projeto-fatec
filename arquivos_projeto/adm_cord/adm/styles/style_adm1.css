@@ -19,6 +19,15 @@ body {
  
 }
 
+
+
+
+#adm{
+  filter: invert(100%);
+  width: 2rem;
+  padding-left: 1rem;
+}
+
 header {
   background-color: rgb(39, 39, 39);
   color: white;
@@ -37,8 +46,8 @@ header {
 header h2 {
   font-family: 'Monserrat';
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
-  padding-left:1rem;
- font-size: 1.3rem;
+  padding-left:0.4rem;
+ font-size: 1rem;
 }
 
 .posi {
@@ -201,7 +210,7 @@ text-align: center;
 
 .menu_adm {
   padding: 2rem;
-  width: 15rem;
+  width: 20rem;
   background-color: rgb(39, 39, 39);
   height: 100vh;
   
@@ -217,6 +226,7 @@ a {
   list-style: none;
   transition: 0.4s;
   font-weight: bolder;
+  padding: 0.2rem;
 
 
 
@@ -225,10 +235,13 @@ a {
 }
 
 .menu_adm>ul>li>a:hover {
-  color: rgb(211, 56, 56);
+  background-color: rgb(134, 134, 134);
+  color: #fff;
   text-decoration: none;
   list-style: none;
-  padding: 0rem 0rem 0rem 0.3rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  
 
 
 
@@ -264,8 +277,12 @@ a {
 .menu_adm>ul>li>h2 {
   margin-left: 1rem;
   text-align: center;
-  text-decoration: solid;
-  color: rgb(255, 255, 255);
+  
+color: rgb(255, 255, 255);
+border-left: 4px solid rgb(228, 0, 0) ;
+font-family: 'Monserrat' ;
+padding-left:0.2rem ;
+
 
 }
 

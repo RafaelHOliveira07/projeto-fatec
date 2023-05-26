@@ -21,8 +21,8 @@ $lista = $curso->listar();
     <title>Adm - Adicionar Editais</title>
 </head>
 <body>
-    <header>
-        <h2>Area Administrativa</h2>
+<header>
+      <img src="../img/administracao.png" id="adm" alt="">  <h2>Area Administrativa</h2>
      </header>
     <body>
    
