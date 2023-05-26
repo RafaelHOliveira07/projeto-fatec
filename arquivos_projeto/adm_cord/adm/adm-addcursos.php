@@ -14,7 +14,8 @@
    
 <body>
     <header>
-   <h2>Area Administrativa</h2>
+  
+     <h2>  Area Administrativa</h2>
 </header>
 </div>
 <section class="posi">
