@@ -9,17 +9,24 @@ main>.fundo> h1 {
 span ,label{
   font-weight: bolder;
   font-size: small;
+ 
 }
 
-
+.save{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 form{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   row-gap: 2rem;
+  width: 40rem;
+  text-align: left;
 }
 
 #adicionar{
@@ -55,4 +62,15 @@ form{
   flex-direction: column;
   row-gap: 1rem;
   
+}
+
+input,select{
+  width: 100%;
+}
+
+.input-wrapper,.labe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

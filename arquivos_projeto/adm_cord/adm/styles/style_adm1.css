@@ -54,6 +54,8 @@ header h2 {
 }
 
 
+
+
 .input{
   display: flex;
   flex-direction: column;
@@ -76,6 +78,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
 }
 .form>h1{
@@ -194,7 +197,7 @@ text-align: center;
   display: flex;
   justify-content: left;
   flex-direction: column;
-  align-items: center;
+  
 }
 
 .menu_adm {
@@ -285,9 +288,9 @@ p {
 
 }
 
-.img img {
-  max-width: 100%;
+.img {
+  width: 10rem;
+  direction: 10rem;
 
-  top: 0;
-  right: 0;
+ 
 }

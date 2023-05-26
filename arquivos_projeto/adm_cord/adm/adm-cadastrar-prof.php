@@ -19,8 +19,8 @@
     <section class="menu_adm">
         <ul>
     <li><a href="adm-inicio.html">Inicio</a></li>
-    <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
-            <li><h2>Cursos</h2></li>
+    
+            <li><img src="" alt=""><h2>Cursos</h2></li>
             <li><a href="adm-addcursos.php">Adicionar Curso</a></li>
             <li><a href="adm-gerenciar-cursos.php">Gerenciar cursos</a></li>
             <li><h2>Disciplinas</h2></li>
@@ -30,6 +30,7 @@
             <li><a href="adm-adicionar.php">Adicionar Editais</a></li>
             <li><a href="adm-geren-editais.php">Gerenciar Editais</a></li>
            <li><h2>Participantes</h2></li> 
+           <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
             <li><a href="adm-part.php">Lista de Participantes</a></li>
         </ul>
 

@@ -44,8 +44,9 @@
                         
                             <form action="../adm/cursos-gravar.php" method="post">  
                                 <div class="inputs">
-                                    <span>Insira a imagem de fundo relacionada ao Curso:</span>
+                                    
                                     <div class='input-wrapper'>
+                                        <span>Insira a imagem de fundo relacionada ao Curso:</span>
                                         <label for='input-file'>
                                           Selecionar um arquivo
                                         </label>

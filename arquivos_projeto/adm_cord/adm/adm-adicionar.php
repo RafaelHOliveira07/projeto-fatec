@@ -53,7 +53,7 @@ $lista = $disciplina->listar();
         </ul>
 
     </section>
-            </section>
+            
             <main>
                 <section class="fundo">
                     <h1>Adicionar edital</h1>
@@ -87,7 +87,7 @@ $lista = $disciplina->listar();
                             </div>
                                 <label for="">Numero do edital:
                                 <input type="text" name="num_edital" placeholder="Número do edital"></label>
-                                <label for="">Selecionar o documento do edital(PDF)</label>
+                                <label class="labe" for="">Selecionar o (PDF)</label>
                                 <div class='input-wrapper'>
                                 <label for='input-file'>
                                   Selecionar PDF
