@@ -49,7 +49,7 @@ $lista = $disciplina->listar();
             <li><a href="adm-adicionar.php">Adicionar Editais</a></li>
             <li><a href="adm-geren-editais.php">Gerenciar Editais</a></li>
            <li><h2>Participantes</h2></li> 
-            <li><a href="adm-part.php">Lista de Participantes</a></li>
+           <li><a href="adm-listprof.php">Lista de Participantes</a></li>
         </ul>
 
     </section>
