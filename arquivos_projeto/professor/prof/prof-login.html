@@ -9,7 +9,19 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style1.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  
+    <script type="text/javascript">
+        function validaCampo() {
+          if (document.login.usuario.value == "") {
+            alert("O campo usuário é obrigatório!");
+            return false;
+          }
+          if (document.login.senha.value == "") {
+            alert("O campo senha é obrigatório!");
+            return false;
+          } else
+            return true;
+        }
+      </script>
 
 </head>
 
@@ -57,13 +69,13 @@
       <div class="sec0" id="form01"> 
           <div id="centro" class="reveal">
               <h2>Login</h2>
-                  <form action="pagina.html" method="POST">
-                          <label for="nome"> Nome: 
-                            <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+                  <form action="usuario-login.php" method="POST">
+                          <label for="email"> E-mail: 
+                            <input type="text" name="email" id="email" placeholder="Insira seu nome">
                           </label>
                           
-                          <label for="endereco">Senha: 
-                            <input type="text" name="endereco" id="endereco" placeholder="Insira seu Senha">
+                          <label for="senha">Senha: 
+                            <input type="text" name="senha" id="senha" placeholder="Insira seu Senha">
                           </label> 
 
                       <div id="chek">
@@ -79,7 +91,6 @@
 
               <div id="linkf">
                 <a href="recu.html" class="linkc">Esqueceu sua senha? </a>
-                  <a href="professor-cadas.html" class="linkc">Ainda não possui uma conta?</a>
               </div>
           </div>
         </div>
