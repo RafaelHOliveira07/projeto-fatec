@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(18, 18, 18);
   color: white;
   display: flex;
   justify-content: left;
@@ -58,7 +58,7 @@ header h2 {
 
   display: flex;
   flex-direction: row;
-
+  
 }
 
 
@@ -87,6 +87,7 @@ main{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 
 }
 .form>h1{
@@ -205,13 +206,13 @@ text-align: center;
   display: flex;
   justify-content: left;
   flex-direction: column;
-  
+
 }
 
 .menu_adm {
   padding: 2rem;
   width: 20rem;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(18, 18, 18);
   height: 100vh;
   
 
@@ -310,3 +311,4 @@ p {
 
  
 }
+
