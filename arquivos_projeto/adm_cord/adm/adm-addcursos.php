@@ -39,7 +39,7 @@
         
             <main>
                 <section class="fundo"> 
-                            <h1>Adicionar Novo Curso:</h1>
+                            <h1>Adicionar Curso</h1>
                         <div class="campos">
                         
                             <form action="../adm/cursos-gravar.php" method="post">  

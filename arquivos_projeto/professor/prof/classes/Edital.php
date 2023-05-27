@@ -40,6 +40,19 @@ class Edital
         echo "registrado com sucesso";
     }
 
+   public function listar(string $curso)
+    {
+        $sql = "SELECT e.edital_id, c.sigla_curso, d.nome_disci, d.area_disci,d.data_hora, e.num_edital  FROM tb_edital e JOIN tb_disciplinas d ON e.disci_id = d.disci_id JOIN tb_cursos c ON e.curso_id = c.curso_id WHERE c.sigla_curso = :curso ORDER BY edital_id";
+
+        $conexao = new PDO('mysql:host=127.0.0.1;dbname=portal_edital','root','');
+        $query = $conexao->prepare($sql);
+        $query->execute([':curso' => $curso]);
+
+        $lista = $query->fetchALL();
+
+        return $lista;
+    }
+
     public function listardsm()
     {
         $sql = "SELECT e.edital_id, c.sigla_curso, d.nome_disci, d.area_disci,d.data_hora, e.num_edital  FROM tb_edital e JOIN tb_disciplinas d ON e.disci_id = d.disci_id JOIN tb_cursos c ON e.curso_id = c.curso_id WHERE c.sigla_curso = 'DSM' ORDER BY edital_id";
