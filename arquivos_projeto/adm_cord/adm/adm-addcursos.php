@@ -15,6 +15,9 @@
 <body>
 <header>
       <img src="../img/administracao.png" id="adm" alt="">  <h2>Área Administrativa</h2>
+    <div class="logout">
+      <img src="../img/logout.png" id="" alt="">
+    </div>
      </header>
 </div>
 <section class="posi">
