@@ -83,7 +83,7 @@ $lista = $edital->listardsm();
                             </div>
                         </div>
                         <div class="button">
-                            <a href="confirma.html" id="ins-link"><button><span class="button">Inscrever-se</span></button></a>
+                            <a href="confirma.php?edital_id=<?= $linha['edital_id'] ?>" id="ins-link"><button><span class="button">Inscrever-se</span></button></a>
                         </div>
                         </div>
                     </div>                    
