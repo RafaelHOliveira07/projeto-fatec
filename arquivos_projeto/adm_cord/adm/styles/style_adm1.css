@@ -47,7 +47,7 @@ header h2 {
   font-family: 'Monserrat';
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
   padding-left:0.4rem;
- font-size: 1rem;
+ font-size: 1.3rem;
 }
 
 .posi {
@@ -213,12 +213,25 @@ text-align: center;
   padding: 2rem;
   width: 20rem;
   background-color: rgb(18, 18, 18);
-  height: 100vh;
+  height: 100%;
   
 
 }
 
+textarea, input , select{
+  transition: all 0.2s ease-in-out;
+}
 
+textarea:focus, input:focus, select:focus{
+  outline: none;
+ 
+}
+
+
+
+textarea{
+  
+}
 
 .menu_adm>ul>li,
 a {
@@ -295,20 +308,7 @@ p {
   color: rgb(0, 0, 0);
 }
 
-.img {
 
 
-  display: flex;
 
-  background-size: cover;
-
-
-}
-
-.img {
-  width: 10rem;
-  direction: 10rem;
-
- 
-}
 

@@ -30,7 +30,7 @@ $lista = $disciplina->listar();
 </head>
 <body>
 <header>
-      <img src="../img/administracao.png" id="adm" alt="">  <h2>Area Administrativa</h2>
+      <img src="../img/administracao.png" id="adm" alt="">  <h2>Área Administrativa</h2>
      </header>
     <body>
    

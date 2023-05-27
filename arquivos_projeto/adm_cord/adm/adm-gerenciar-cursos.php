@@ -30,7 +30,7 @@ $lista = $curso->listar();
        
              <section class="posi">
              <section class="menu_adm">
-        <ul>
+             <ul>
     <li><a href="adm-inicio.html">Inicio</a></li>
     <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
             <li><h2>Cursos</h2></li>
