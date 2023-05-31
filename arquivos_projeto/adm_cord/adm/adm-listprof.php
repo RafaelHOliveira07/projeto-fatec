@@ -31,12 +31,16 @@ $lista2 = $participante->listar2();
     <header>
         <img src="../img/administracao.png" id="adm" alt="">
         <h2>Area Administrativa</h2>
+        <div class="logout">
+      <a href="">Sair<img src="../img/logout.png" id="logout" name="logout" alt=""></a>
+    </div>
     </header>
 
     <section class="posi">
         <section class="menu_adm">
             <ul>
                 <li><a href="adm-inicio.html">Inicio</a></li>
+                <li><h2>Professores</h2></li>
                 <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
                 <li>
                     <h2>Cursos</h2>

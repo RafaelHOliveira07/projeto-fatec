@@ -31,6 +31,10 @@ $lista = $disciplina->listar();
 <body>
 <header>
       <img src="../img/administracao.png" id="adm" alt="">  <h2>Área Administrativa</h2>
+
+      <div class="logout">
+      <a href="">Sair<img src="../img/logout.png" id="logout" name="logout" alt=""></a>
+    </div>
      </header>
     <body>
    
@@ -38,6 +42,7 @@ $lista = $disciplina->listar();
     <section class="menu_adm">
         <ul>
     <li><a href="adm-inicio.html">Inicio</a></li>
+    <li><h2>Professores</h2></li>
     <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
             <li><h2>Cursos</h2></li>
             <li><a href="adm-addcursos.php">Adicionar Curso</a></li>

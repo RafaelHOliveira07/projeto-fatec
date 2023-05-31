@@ -129,23 +129,10 @@
   font-size: smaller;
 
 }
-.linkpdf>img{
-  width: 25px;
-}
 
-.linkpdf{
-  height: max-content;
-  display: flex;
-  gap: 0.4rem;
-  align-items: flex-end ;
-}
-.linkpdf>a{
-  color: #ffffff;
-  text-decoration: none;
-  
-  
-  font-size: small;
-}
+
+
+
 
 .posi{
   width: 100%;

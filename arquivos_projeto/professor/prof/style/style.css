@@ -483,3 +483,27 @@ nav>ul li{
   transform: translatey(0px);
   opacity: 1;
 }
+
+/*------------EDITAL---------------*/
+
+.linkpdf{
+
+  display: flex;
+  align-items: center;
+  height: max-content;
+ 
+
+}
+.linkpdf>a{
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: bold;
+  font-size: small;
+}
+.linkpdf>a>img{
+  width: 25px;
+}
+

@@ -26,7 +26,7 @@ $lista = $edital->listargpi();
         <header id="cabeca">
 
             <div id="titu">
-                <h1><a href="inico-prof.html" id="titulo">PORTAL DE EDITAIS <br> <span>FATEC ITAPIRA</span></a></h1>
+                <h1><a href="inicio-prof.html" id="titulo">PORTAL DE EDITAIS <br> <span>FATEC ITAPIRA</span></a></h1>
             </div>
 
 
@@ -41,8 +41,8 @@ $lista = $edital->listargpi();
               <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a href="inico-prof.html" class="menu_link">Home</a></li>
-                <li><a href="inico-prof.html#gpi"class="menu_link">Cursos</a></li>
+                <li><a href="inicio-prof.html" class="menu_link">Home</a></li>
+                <li><a href="inicio-prof.html#h3"class="menu_link">Cursos</a></li>
                 <li><a href="duvidas.html"class="menu_link">Duvidas</a></li>
                 <li><a href="sobre.html"class="menu_link" id="last">Sobre</a></li>
                 
@@ -81,7 +81,7 @@ $lista = $edital->listargpi();
                                 <?php echo $linha['data_hora'] ?></span>
                                 <span>Número do Edital:<?php echo $linha['num_edital'] ?></span>
                             <div class="linkpdf">
-                              Vizualizar edital:<a href="pdf.php?id=<?= $linha['edital_id'] ?>" target="_blank"><img src="img/icons8-pdf-64.png" alt=""></a>
+                              <a href="pdf.php?id=<?= $linha['edital_id'] ?>" target="_blank">Vizualizar edital:<img src="img/icons8-pdf-64.png" alt=""></a>
                             </div>
                         </div>
                         <div class="button">

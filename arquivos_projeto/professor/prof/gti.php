@@ -29,7 +29,7 @@ $lista = $edital->listargti();
         <header id="cabeca">
 
             <div id="titu">
-                <h1><a href="inico-prof.html" id="titulo">PORTAL DE EDITAIS <br> <span>FATEC ITAPIRA</span></a></h1>
+                <h1><a href="inicio-prof.html" id="titulo">PORTAL DE EDITAIS <br> <span>FATEC ITAPIRA</span></a></h1>
             </div>
 
 
@@ -84,7 +84,7 @@ $lista = $edital->listargti();
                                 <?php echo $linha['data_hora'] ?></span>
                                 <span>Número do Edital:<?php echo $linha['num_edital'] ?></span>
                             <div class="linkpdf">
-                              Vizualizar edital:<a href="pdf.php?id=<?= $linha['edital_id'] ?>" target="_blank"><img src="img/icons8-pdf-64.png" alt=""></a>
+                              <a href="pdf.php?id=<?= $linha['edital_id'] ?>" target="_blank">Vizualizar edital:<img src="img/icons8-pdf-64.png" alt=""></a>
                             </div>
                         </div>
                         <div class="button">
